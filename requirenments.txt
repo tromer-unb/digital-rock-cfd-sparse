@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib
+pillow
+scikit-image
+gmsh
+meshio
+scikit-fem
+pandas
