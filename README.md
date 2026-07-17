@@ -925,7 +925,7 @@ The authors acknowledge the developers and maintainers of these projects.
 ---
 
 ## Contact
-**Raphal M. Tromer and Luiz Ribeiro**  
+**Raphael M. Tromer and Luiz Ribeiro**  
   
 
 
