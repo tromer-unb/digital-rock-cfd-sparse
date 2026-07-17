@@ -256,23 +256,11 @@ digital-rock-cfd-sparse/
 ├── digital_rock_cfd_sparse.py
 ├── visualize_cfd_outputs.py
 │
-├── structures/
+├── structures.tar.gz
 │   ├── patch_y3800_x3800_c0_mask.png
 │   ├── patch_y7600_x19000_c0_mask.png
 │   ├── patch_y7600_x53200_c0_mask.png
-│   └── README.md
 │
-├── configs/
-│   └── study_parameters.yaml
-│
-├── figures/
-│   ├── figure1.py
-│   ├── figure2.py
-│   ├── figure3.py
-│   ├── figure4.py
-│   ├── figure5.py
-│   ├── figure6.py
-│   └── figure7.py
 │
 ├── run_parameter.md
 ├── visualize_CFD_parameter.md
