@@ -1,0 +1,4 @@
+ python3 figure1.py   --structures ../../../../poros/poros   --summaries     ../convergence_mesh_0
+1_coarse/global_summary.csv     ../convergence_mesh_02_intermediate/global_summary.csv     ../convergence_mesh_03_fine/global_summary.csv     ../convergence
+_mesh_04_very_fine/global_summary.csv     ../convergence_mesh_05_extra_fine/global_summary.csv   --output Figure_1_convergence.svg
+Figura salva em: /home/tromer/Isarael/Poincare/CFD/convergencia/figure1/Figure_1_convergence.svg

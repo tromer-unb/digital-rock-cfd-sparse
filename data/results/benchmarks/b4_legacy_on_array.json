@@ -1,0 +1,54 @@
+[
+ {
+  "c_pixel": 0.10062499999999996,
+  "k_cell_px2": 1026.1128500072405,
+  "level": 2,
+  "legacy_band0.08": {
+   "k_author": 1409.7336496335095,
+   "inlet_open_fraction": 0.65,
+   "ratio_to_cell": 1.3738582940692752,
+   "k_author_times_open_fraction": 916.3268722617812,
+   "ratio_darcy_to_cell": 0.893007891145029,
+   "residual": 2.0687486799557038e-05
+  },
+  "legacy_band0.1": {
+   "k_author": 1458.1851999034882,
+   "inlet_open_fraction": 0.7125,
+   "ratio_to_cell": 1.4210768336964097,
+   "k_author_times_open_fraction": 1038.9569549312353,
+   "ratio_darcy_to_cell": 1.0125172440086918,
+   "residual": 1.6530620189758167e-05
+  },
+  "legacy_band0.001": {
+   "status": "failed",
+   "error": "Nenhuma curva INLET foi detectada.",
+   "exit_code_of_cli": 0
+  }
+ },
+ {
+  "c_pixel": 0.19953125000000005,
+  "k_cell_px2": 498.6070536918488,
+  "level": 2,
+  "legacy_band0.08": {
+   "k_author": 946.3831934665341,
+   "inlet_open_fraction": 0.5,
+   "ratio_to_cell": 1.898054162008349,
+   "k_author_times_open_fraction": 473.19159673326703,
+   "ratio_darcy_to_cell": 0.9490270810041745,
+   "residual": 2.727367316669718e-05
+  },
+  "legacy_band0.1": {
+   "k_author": 947.5750644687375,
+   "inlet_open_fraction": 0.5375,
+   "ratio_to_cell": 1.9004445634143832,
+   "k_author_times_open_fraction": 509.3215971519464,
+   "ratio_darcy_to_cell": 1.021488952835231,
+   "residual": 2.2469291991217895e-05
+  },
+  "legacy_band0.001": {
+   "status": "failed",
+   "error": "Nenhuma curva INLET foi detectada.",
+   "exit_code_of_cli": 0
+  }
+ }
+]

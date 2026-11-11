@@ -1,0 +1,20 @@
+{
+ "status": "completed",
+ "openfoam": {
+  "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+  "version": "v1912"
+ },
+ "n_cells": 5409,
+ "k_fv_prisms": 0.011376925758347268,
+ "k_fe": 0.011171228780279464,
+ "rel_diff_fv_vs_fe": 0.01841310227491899,
+ "flux_mismatch_in_out": 2.1343478485474584e-12,
+ "mesh_ok": true,
+ "max_non_orthogonality": 26.209200814488,
+ "converged": true,
+ "converged_by": "simpleFoam residualControl",
+ "p_initial_residual_last": 9.9962426262052e-13,
+ "Ux_initial_residual_last": 4.8219461706255e-11,
+ "Uy_initial_residual_last": 9.7004629436516e-11,
+ "iterations": 420
+}

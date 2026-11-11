@@ -1,0 +1,630 @@
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000241942s, CPU 0.000211s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00241515s, CPU 0.002216s)
+Info    : 103 nodes 208 elements
+Info    : Writing 'v_01_coarse/lr/h020/mesh.msh'...
+Info    : Done writing 'v_01_coarse/lr/h020/mesh.msh'
+Info    : Writing 'v_01_coarse/lr/h020/geometry.geo_unrolled'...
+Info    : Done writing 'v_01_coarse/lr/h020/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000212035s, CPU 0.000212s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00767377s, CPU 0.007669s)
+Info    : 340 nodes 682 elements
+Info    : Writing 'v_01_coarse/lr/h040/mesh.msh'...
+Info    : Done writing 'v_01_coarse/lr/h040/mesh.msh'
+Info    : Writing 'v_01_coarse/lr/h040/geometry.geo_unrolled'...
+Info    : Done writing 'v_01_coarse/lr/h040/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000201786s, CPU 0.000186s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0159084s, CPU 0.015908s)
+Info    : 590 nodes 1182 elements
+Info    : Writing 'v_01_coarse/lr/h080/mesh.msh'...
+Info    : Done writing 'v_01_coarse/lr/h080/mesh.msh'
+Info    : Writing 'v_01_coarse/lr/h080/geometry.geo_unrolled'...
+Info    : Done writing 'v_01_coarse/lr/h080/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000226793s, CPU 0.00021s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0454108s, CPU 0.045381s)
+Info    : 1599 nodes 3200 elements
+Info    : Writing 'v_01_coarse/lr/h160/mesh.msh'...
+Info    : Done writing 'v_01_coarse/lr/h160/mesh.msh'
+Info    : Writing 'v_01_coarse/lr/h160/geometry.geo_unrolled'...
+Info    : Done writing 'v_01_coarse/lr/h160/geometry.geo_unrolled'
+Imagens encontradas: 4
+Direções: lr
+Entrada: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/structs2
+Saída: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/v_01_coarse
+Pipeline: máscara -> domínio percolante -> malha -> Stokes -> análise.
+
+[1/4] h020.png | direção=lr
+
+
+  DOFs velocidade: 474 | pressão: 103 | total: 577
+  Sistema livre: 438 incógnitas | nnz=3,794 | armazenamento CSR≈0.0 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 103
+  Triângulos: 134
+  ΔP: 7.48829498e-04
+  k: 5.33499283e+01 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.95002976e-03
+
+[2/4] h040.png | direção=lr
+
+
+  DOFs velocidade: 1,756 | pressão: 340 | total: 2,096
+  Sistema livre: 1,821 incógnitas | nnz=20,266 | armazenamento CSR≈0.2 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 340
+  Triângulos: 538
+  ΔP: 4.73409652e-04
+  k: 1.68881221e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 7.95001486e-03
+
+[3/4] h080.png | direção=lr
+
+
+  DOFs velocidade: 3,244 | pressão: 590 | total: 3,834
+  Sistema livre: 3,553 incógnitas | nnz=43,350 | armazenamento CSR≈0.5 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 590
+  Triângulos: 1032
+  ΔP: 1.31985099e-04
+  k: 6.05750199e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 1.59500141e-02
+
+[4/4] h160.png | direção=lr
+
+
+  DOFs velocidade: 9,006 | pressão: 1,599 | total: 10,605
+  Sistema livre: 10,046 incógnitas | nnz=126,116 | armazenamento CSR≈1.5 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 1599
+  Triângulos: 2904
+  ΔP: 7.28873136e-05
+  k: 2.19585538e+03 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.19500070e-02
+
+Pipeline concluído.
+Casos CFD concluídos: 4/4
+Casos não percolantes: 0
+Resumo global: v_01_coarse/global_summary.csv
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000213699s, CPU 0.000184s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00443997s, CPU 0.004378s)
+Info    : 208 nodes 418 elements
+Info    : Writing 'v_02_intermediate/lr/h020/mesh.msh'...
+Info    : Done writing 'v_02_intermediate/lr/h020/mesh.msh'
+Info    : Writing 'v_02_intermediate/lr/h020/geometry.geo_unrolled'...
+Info    : Done writing 'v_02_intermediate/lr/h020/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000224068s, CPU 0.0002s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0177073s, CPU 0.017706s)
+Info    : 702 nodes 1406 elements
+Info    : Writing 'v_02_intermediate/lr/h040/mesh.msh'...
+Info    : Done writing 'v_02_intermediate/lr/h040/mesh.msh'
+Info    : Writing 'v_02_intermediate/lr/h040/geometry.geo_unrolled'...
+Info    : Done writing 'v_02_intermediate/lr/h040/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000216313s, CPU 0.000197s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0300823s, CPU 0.030072s)
+Info    : 1072 nodes 2146 elements
+Info    : Writing 'v_02_intermediate/lr/h080/mesh.msh'...
+Info    : Done writing 'v_02_intermediate/lr/h080/mesh.msh'
+Info    : Writing 'v_02_intermediate/lr/h080/geometry.geo_unrolled'...
+Info    : Done writing 'v_02_intermediate/lr/h080/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000292636s, CPU 0.000293s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0764128s, CPU 0.076412s)
+Info    : 2628 nodes 5258 elements
+Info    : Writing 'v_02_intermediate/lr/h160/mesh.msh'...
+Info    : Done writing 'v_02_intermediate/lr/h160/mesh.msh'
+Info    : Writing 'v_02_intermediate/lr/h160/geometry.geo_unrolled'...
+Info    : Done writing 'v_02_intermediate/lr/h160/geometry.geo_unrolled'
+Imagens encontradas: 4
+Direções: lr
+Entrada: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/structs2
+Saída: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/v_02_intermediate
+Pipeline: máscara -> domínio percolante -> malha -> Stokes -> análise.
+
+[1/4] h020.png | direção=lr
+
+
+  DOFs velocidade: 1,032 | pressão: 208 | total: 1,240
+  Sistema livre: 1,031 incógnitas | nnz=10,672 | armazenamento CSR≈0.1 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 208
+  Triângulos: 308
+  ΔP: 8.69867355e-04
+  k: 4.59265424e+01 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.95002976e-03
+
+[2/4] h040.png | direção=lr
+
+
+  DOFs velocidade: 3,792 | pressão: 702 | total: 4,494
+  Sistema livre: 4,085 incógnitas | nnz=48,552 | armazenamento CSR≈0.6 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 702
+  Triângulos: 1194
+  ΔP: 4.92575369e-04
+  k: 1.62310187e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 7.95001486e-03
+
+[3/4] h080.png | direção=lr
+
+
+  DOFs velocidade: 5,992 | pressão: 1,072 | total: 7,064
+  Sistema livre: 6,645 incógnitas | nnz=82,562 | armazenamento CSR≈1.0 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 1072
+  Triângulos: 1924
+  ΔP: 1.39749473e-04
+  k: 5.72095179e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 1.59500141e-02
+
+[4/4] h160.png | direção=lr
+
+
+  DOFs velocidade: 14,892 | pressão: 2,628 | total: 17,520
+  Sistema livre: 16,685 incógnitas | nnz=210,838 | armazenamento CSR≈2.5 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 2628
+  Triângulos: 4818
+  ΔP: 7.57404611e-05
+  k: 2.11313739e+03 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.19500070e-02
+
+Pipeline concluído.
+Casos CFD concluídos: 4/4
+Casos não percolantes: 0
+Resumo global: v_02_intermediate/global_summary.csv
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000244516s, CPU 0.000209s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0180587s, CPU 0.017055s)
+Info    : 702 nodes 1406 elements
+Info    : Writing 'v_03_fine/lr/h020/mesh.msh'...
+Info    : Done writing 'v_03_fine/lr/h020/mesh.msh'
+Info    : Writing 'v_03_fine/lr/h020/geometry.geo_unrolled'...
+Info    : Done writing 'v_03_fine/lr/h020/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000279983s, CPU 0.000251s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0647584s, CPU 0.064757s)
+Info    : 2242 nodes 4486 elements
+Info    : Writing 'v_03_fine/lr/h040/mesh.msh'...
+Info    : Done writing 'v_03_fine/lr/h040/mesh.msh'
+Info    : Writing 'v_03_fine/lr/h040/geometry.geo_unrolled'...
+Info    : Done writing 'v_03_fine/lr/h040/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.00028383s, CPU 0.000262s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0838542s, CPU 0.083845s)
+Info    : 2803 nodes 5608 elements
+Info    : Writing 'v_03_fine/lr/h080/mesh.msh'...
+Info    : Done writing 'v_03_fine/lr/h080/mesh.msh'
+Info    : Writing 'v_03_fine/lr/h080/geometry.geo_unrolled'...
+Info    : Done writing 'v_03_fine/lr/h080/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.0264595s, CPU 0.026459s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.180855s, CPU 0.180855s)
+Info    : 5820 nodes 11642 elements
+Info    : Writing 'v_03_fine/lr/h160/mesh.msh'...
+Info    : Done writing 'v_03_fine/lr/h160/mesh.msh'
+Info    : Writing 'v_03_fine/lr/h160/geometry.geo_unrolled'...
+Info    : Done writing 'v_03_fine/lr/h160/geometry.geo_unrolled'
+Imagens encontradas: 4
+Direções: lr
+Entrada: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/structs2
+Saída: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/v_03_fine
+Pipeline: máscara -> domínio percolante -> malha -> Stokes -> análise.
+
+[1/4] h020.png | direção=lr
+
+
+  DOFs velocidade: 3,792 | pressão: 702 | total: 4,494
+  Sistema livre: 4,085 incógnitas | nnz=48,552 | armazenamento CSR≈0.6 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 702
+  Triângulos: 1194
+  ΔP: 9.90921599e-04
+  k: 4.03160049e+01 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.95002976e-03
+
+[2/4] h040.png | direção=lr
+
+
+  DOFs velocidade: 12,620 | pressão: 2,242 | total: 14,862
+  Sistema livre: 14,051 incógnitas | nnz=175,978 | armazenamento CSR≈2.1 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 2242
+  Triângulos: 4068
+  ΔP: 5.53430142e-04
+  k: 1.44462677e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 7.95001486e-03
+
+[3/4] h080.png | direção=lr
+
+
+  DOFs velocidade: 15,946 | pressão: 2,803 | total: 18,749
+  Sistema livre: 17,918 incógnitas | nnz=227,400 | armazenamento CSR≈2.7 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 2803
+  Triângulos: 5170
+  ΔP: 1.51180802e-04
+  k: 5.28836988e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 1.59500141e-02
+
+[4/4] h160.png | direção=lr
+
+
+  DOFs velocidade: 33,186 | pressão: 5,820 | total: 39,006
+  Sistema livre: 37,353 incógnitas | nnz=475,570 | armazenamento CSR≈5.6 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 5820
+  Triângulos: 10773
+  ΔP: 7.95613417e-05
+  k: 2.01165537e+03 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.19500070e-02
+
+Pipeline concluído.
+Casos CFD concluídos: 4/4
+Casos não percolantes: 0
+Resumo global: v_03_fine/global_summary.csv
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.000313755s, CPU 0.000267s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0622087s, CPU 0.061181s)
+Info    : 2221 nodes 4444 elements
+Info    : Writing 'v_04_very_fine/lr/h020/mesh.msh'...
+Info    : Done writing 'v_04_very_fine/lr/h020/mesh.msh'
+Info    : Writing 'v_04_very_fine/lr/h020/geometry.geo_unrolled'...
+Info    : Done writing 'v_04_very_fine/lr/h020/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.0260767s, CPU 0.026064s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.164129s, CPU 0.164079s)
+Info    : 5395 nodes 10792 elements
+Info    : Writing 'v_04_very_fine/lr/h040/mesh.msh'...
+Info    : Done writing 'v_04_very_fine/lr/h040/mesh.msh'
+Info    : Writing 'v_04_very_fine/lr/h040/geometry.geo_unrolled'...
+Info    : Done writing 'v_04_very_fine/lr/h040/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.0261916s, CPU 0.026175s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.179456s, CPU 0.179439s)
+Info    : 5828 nodes 11658 elements
+Info    : Writing 'v_04_very_fine/lr/h080/mesh.msh'...
+Info    : Done writing 'v_04_very_fine/lr/h080/mesh.msh'
+Info    : Writing 'v_04_very_fine/lr/h080/geometry.geo_unrolled'...
+Info    : Done writing 'v_04_very_fine/lr/h080/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.0780421s, CPU 0.077017s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.371323s, CPU 0.37127s)
+Info    : 11516 nodes 23034 elements
+Info    : Writing 'v_04_very_fine/lr/h160/mesh.msh'...
+Info    : Done writing 'v_04_very_fine/lr/h160/mesh.msh'
+Info    : Writing 'v_04_very_fine/lr/h160/geometry.geo_unrolled'...
+Info    : Done writing 'v_04_very_fine/lr/h160/geometry.geo_unrolled'
+Imagens encontradas: 4
+Direções: lr
+Entrada: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/structs2
+Saída: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/v_04_very_fine
+Pipeline: máscara -> domínio percolante -> malha -> Stokes -> análise.
+
+[1/4] h020.png | direção=lr
+
+
+  DOFs velocidade: 12,494 | pressão: 2,221 | total: 14,715
+  Sistema livre: 13,904 incógnitas | nnz=173,992 | armazenamento CSR≈2.0 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 2221
+  Triângulos: 4026
+  ΔP: 1.11336604e-03
+  k: 3.58821793e+01 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.95002976e-03
+
+[2/4] h040.png | direção=lr
+
+
+  DOFs velocidade: 30,718 | pressão: 5,395 | total: 36,113
+  Sistema livre: 34,502 incógnitas | nnz=438,100 | armazenamento CSR≈5.1 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 5395
+  Triângulos: 9964
+  ΔP: 5.92032158e-04
+  k: 1.35043340e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 7.95001486e-03
+
+[3/4] h080.png | direção=lr
+
+
+  DOFs velocidade: 33,236 | pressão: 5,828 | total: 39,064
+  Sistema livre: 37,413 incógnitas | nnz=476,278 | armazenamento CSR≈5.6 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 5828
+  Triângulos: 10790
+  ΔP: 1.59307977e-04
+  k: 5.01858110e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 1.59500141e-02
+
+[4/4] h160.png | direção=lr
+
+
+  DOFs velocidade: 65,752 | pressão: 11,516 | total: 77,268
+  Sistema livre: 74,083 incógnitas | nnz=944,376 | armazenamento CSR≈11.1 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 11516
+  Triângulos: 21360
+  ΔP: 8.19327747e-05
+  k: 1.95343073e+03 pixel^2
+  Zona ativa: 99.998%
+  Zona morta: 0.000%
+  Reynolds: 3.19500070e-02
+
+Pipeline concluído.
+Casos CFD concluídos: 4/4
+Casos não percolantes: 0
+Resumo global: v_04_very_fine/global_summary.csv
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.004331s, CPU 0.00329s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.100921s, CPU 0.099928s)
+Info    : 3334 nodes 6670 elements
+Info    : Writing 'v_05_extra_fine/lr/h020/mesh.msh'...
+Info    : Done writing 'v_05_extra_fine/lr/h020/mesh.msh'
+Info    : Writing 'v_05_extra_fine/lr/h020/geometry.geo_unrolled'...
+Info    : Done writing 'v_05_extra_fine/lr/h020/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.0384034s, CPU 0.038093s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.227204s, CPU 0.2272s)
+Info    : 7317 nodes 14636 elements
+Info    : Writing 'v_05_extra_fine/lr/h040/mesh.msh'...
+Info    : Done writing 'v_05_extra_fine/lr/h040/mesh.msh'
+Info    : Writing 'v_05_extra_fine/lr/h040/geometry.geo_unrolled'...
+Info    : Done writing 'v_05_extra_fine/lr/h040/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.0363807s, CPU 0.036381s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.268207s, CPU 0.268196s)
+Info    : 7948 nodes 15898 elements
+Info    : Writing 'v_05_extra_fine/lr/h080/mesh.msh'...
+Info    : Done writing 'v_05_extra_fine/lr/h080/mesh.msh'
+Info    : Writing 'v_05_extra_fine/lr/h080/geometry.geo_unrolled'...
+Info    : Done writing 'v_05_extra_fine/lr/h080/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 30%] Meshing curve 2 (Line)
+Info    : [ 60%] Meshing curve 3 (Line)
+Info    : [ 80%] Meshing curve 4 (Line)
+Info    : Done meshing 1D (Wall 0.144771s, CPU 0.144751s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.512975s, CPU 0.51294s)
+Info    : 14867 nodes 29736 elements
+Info    : Writing 'v_05_extra_fine/lr/h160/mesh.msh'...
+Info    : Done writing 'v_05_extra_fine/lr/h160/mesh.msh'
+Info    : Writing 'v_05_extra_fine/lr/h160/geometry.geo_unrolled'...
+Info    : Done writing 'v_05_extra_fine/lr/h160/geometry.geo_unrolled'
+Imagens encontradas: 4
+Direções: lr
+Entrada: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/structs2
+Saída: /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/rerun/poiseuille/v_05_extra_fine
+Pipeline: máscara -> domínio percolante -> malha -> Stokes -> análise.
+
+[1/4] h020.png | direção=lr
+
+
+  DOFs velocidade: 18,898 | pressão: 3,334 | total: 22,232
+  Sistema livre: 21,155 incógnitas | nnz=267,238 | armazenamento CSR≈3.1 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 3334
+  Triângulos: 6115
+  ΔP: 1.14582507e-03
+  k: 3.48657061e+01 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 3.95002976e-03
+
+[2/4] h040.png | direção=lr
+
+
+  DOFs velocidade: 41,720 | pressão: 7,317 | total: 49,037
+  Sistema livre: 46,910 incógnitas | nnz=596,438 | armazenamento CSR≈7.0 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 7317
+  Triângulos: 13543
+  ΔP: 6.04085642e-04
+  k: 1.32348784e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 7.95001486e-03
+
+[3/4] h080.png | direção=lr
+
+
+  DOFs velocidade: 45,400 | pressão: 7,948 | total: 53,348
+  Sistema livre: 51,167 incógnitas | nnz=652,560 | armazenamento CSR≈7.7 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 7948
+  Triângulos: 14752
+  ΔP: 1.61506789e-04
+  k: 4.95025630e+02 pixel^2
+  Zona ativa: 100.000%
+  Zona morta: 0.000%
+  Reynolds: 1.59500141e-02
+
+[4/4] h160.png | direção=lr
+
+
+  DOFs velocidade: 84,946 | pressão: 14,867 | total: 99,813
+  Sistema livre: 95,768 incógnitas | nnz=1,221,970 | armazenamento CSR≈14.3 MB
+  Resolvendo por MINRES: tol=1e-07, maxiter=20000
+  Interpolando solução nos vértices em lotes de 2,048...
+  Nós: 14867
+  Triângulos: 27606
+  ΔP: 8.29193731e-05
+  k: 1.93018825e+03 pixel^2
+  Zona ativa: 99.965%
+  Zona morta: 0.000%
+  Reynolds: 3.19500070e-02
+
+Pipeline concluído.
+Casos CFD concluídos: 4/4
+Casos não percolantes: 0
+Resumo global: v_05_extra_fine/global_summary.csv

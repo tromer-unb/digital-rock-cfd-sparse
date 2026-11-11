@@ -1,0 +1,47 @@
+# Default configuration of PercoFlow (its reference protocol). Every key is optional; unknown keys are rejected.
+# The same defaults are coded in src/percoflow/config.py, where each option is documented.
+# Use:  percoflow image my_image.png -o runs/my_image --config examples/config_default.yaml
+image:
+  pore_rule: green          # green | threshold | nonzero
+  green_min: 80
+  green_delta: 30
+  threshold: null           # grey threshold for pore_rule = threshold (null = mid-range)
+  invert: false             # true if pores are the dark phase
+  min_object_size: 20       # px, pore objects smaller than this are removed
+domain:
+  direction: lr             # lr (left -> right) | tb (top -> bottom)
+  band_fraction: 0.08       # band removed at the inlet and outlet sides
+  band_px: null             # absolute band (overrides band_fraction)
+  keep_percolating: all     # all | largest
+  reservoir_fraction: 0.10  # open reservoirs b = 0.1 L_s
+mesh:
+  level: 2                  # 1 (coarse) ... 5 (fine); see `percoflow levels`
+  contour_tolerance: 0.25   # px; keep well below 1 px and check that k_D does not change when halved
+  min_contour_points: 8     # closing point included = 7 distinct vertices
+  min_contour_area: 20.0    # px^2
+  algorithm: 6              # Gmsh Frontal-Delaunay
+  smoothing: 5
+solver:
+  element: p2               # p2 (Taylor-Hood, reference) | mini (screening)
+  method: lu                # lu | minres
+  inlet: pressure           # pressure (reference) | velocity (comparisons only, not recommended)
+  p_in: 1.0
+  mu: 1.0
+  accept_residual: 1.0e-3   # MINRES: reject solutions whose TRUE residual is larger
+descriptors:
+  alpha: 0.01
+  beta: 0.001
+openfoam:
+  enabled: true             # independent finite-volume cross-check (keep it on)
+  env_script: null          # auto-detect; or the path of OpenFOAM's etc/bashrc
+  nu: 10000.0
+  max_cells: 250000         # larger domains are cross-checked on sub-windows
+  subwindow: 512
+  max_subwindows: 2
+  nprocs: 1
+  keep_cases: false
+output:
+  save_mesh: true
+  save_fields: true
+  save_vtk: true
+  figures: true

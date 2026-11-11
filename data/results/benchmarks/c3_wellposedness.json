@@ -1,0 +1,139 @@
+{
+ "A_pressure_unfiltered": {
+  "n_components": 2,
+  "components": {
+   "0": {
+    "n_vert": 2810,
+    "touches_in": true,
+    "touches_out": true,
+    "y_mean": 55.461446191192074
+   },
+   "1": {
+    "n_vert": 186,
+    "touches_in": false,
+    "touches_out": false,
+    "y_mean": 104.45632856511182
+   }
+  },
+  "isolated": [
+   {
+    "component": 1,
+    "y_mean": 104.45632856511182,
+    "rel_Kx": 1.6900863847128234e-18
+   }
+  ],
+  "PASS": true
+ },
+ "B_velocity_unfiltered": {
+  "n_components": 3,
+  "components": {
+   "0": {
+    "n_vert": 188,
+    "touches_in": false,
+    "touches_out": false,
+    "y_mean": 104.52298016374917
+   },
+   "1": {
+    "n_vert": 1707,
+    "touches_in": true,
+    "touches_out": true,
+    "y_mean": 59.53272190481406
+   },
+   "2": {
+    "n_vert": 272,
+    "touches_in": true,
+    "touches_out": false,
+    "y_mean": 17.475142703964124
+   }
+  },
+  "dead_ends": [
+   {
+    "component": 2,
+    "y_mean": 17.475142703964124,
+    "rel_y_rhs": 0.10448052345226809,
+    "rel_Ky": 2.002653392758917e-18
+   }
+  ],
+  "minres_info": 0,
+  "minres_rel_residual": 0.10448052945523306,
+  "PASS": true
+ },
+ "C_pressure_filtered": {
+  "n_components": 1,
+  "lu_rel_residual_mini": 3.865644784814335e-15,
+  "p2_residual_lu": 6.2383734236867476e-15,
+  "p2_Q_balance": -6.938228129869853e-15,
+  "kD_face": 43.9545455240652,
+  "kD_channel_expected": 44.296788482835,
+  "PASS": true
+ },
+ "rock_cluster_statistics": {
+  "R1-H": {
+   "n_clusters": 528,
+   "n_percolating": 0,
+   "n_dead_end_inlet": 8,
+   "n_dead_end_outlet": 8,
+   "n_isolated": 512,
+   "area_frac_percolating": 0.0,
+   "area_frac_dead_end": 0.19518823761219178,
+   "area_frac_isolated": 0.8048117623878082,
+   "pore_px": 1324629
+  },
+  "R1-V": {
+   "n_clusters": 492,
+   "n_percolating": 0,
+   "n_dead_end_inlet": 8,
+   "n_dead_end_outlet": 3,
+   "n_isolated": 481,
+   "area_frac_percolating": 0.0,
+   "area_frac_dead_end": 0.24933854775194084,
+   "area_frac_isolated": 0.7506614522480591,
+   "pore_px": 1252169
+  },
+  "R2-H": {
+   "n_clusters": 306,
+   "n_percolating": 0,
+   "n_dead_end_inlet": 5,
+   "n_dead_end_outlet": 2,
+   "n_isolated": 299,
+   "area_frac_percolating": 0.0,
+   "area_frac_dead_end": 0.8489333110177181,
+   "area_frac_isolated": 0.15106668898228195,
+   "pore_px": 3889653
+  },
+  "R2-V": {
+   "n_clusters": 281,
+   "n_percolating": 1,
+   "n_dead_end_inlet": 10,
+   "n_dead_end_outlet": 7,
+   "n_isolated": 263,
+   "area_frac_percolating": 0.5377200904800631,
+   "area_frac_dead_end": 0.08813720191748292,
+   "area_frac_isolated": 0.374142707602454,
+   "pore_px": 3870908
+  },
+  "R3-H": {
+   "n_clusters": 124,
+   "n_percolating": 1,
+   "n_dead_end_inlet": 3,
+   "n_dead_end_outlet": 0,
+   "n_isolated": 120,
+   "area_frac_percolating": 0.9857025318181092,
+   "area_frac_dead_end": 0.0011876269645725952,
+   "area_frac_isolated": 0.013109841217318226,
+   "pore_px": 8510248
+  },
+  "R3-V": {
+   "n_clusters": 162,
+   "n_percolating": 1,
+   "n_dead_end_inlet": 1,
+   "n_dead_end_outlet": 3,
+   "n_isolated": 157,
+   "area_frac_percolating": 0.9780423570812586,
+   "area_frac_dead_end": 0.0038068011078875312,
+   "area_frac_isolated": 0.018150841810853798,
+   "pore_px": 7361036
+  }
+ },
+ "PASS_all": true
+}

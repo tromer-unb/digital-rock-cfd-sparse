@@ -1,0 +1,93 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:                                        |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : OPENFOAM=1912 patch=200626
+Arch   : "LSB;label=32;scalar=64"
+Exec   : createPatch -overwrite
+Date   : Oct 29 2026
+Time   : 16:14:23
+Host   : alienware
+PID    : 1196079
+--> FOAM Warning : 
+    From function Foam::fileName Foam::cwd_L()
+    in file POSIX.C at line 494
+    PWD is not the cwd() - reverting to physical description
+I/O    : uncollated
+--> FOAM Warning : 
+    From function Foam::fileName Foam::cwd_L()
+    in file POSIX.C at line 494
+    PWD is not the cwd() - reverting to physical description
+Case   : /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/fix-round/FR-G_openfoam_cell_v2_alienware/c0.05_h0.005
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create polyMesh for time = 0
+
+Reading "system/createPatchDict"
+
+Adding new patch left_c as patch 6 from 
+{
+    type            cyclic;
+    neighbourPatch  right_c;
+    transform       translational;
+    separationVector ( 1 0 0 );
+    matchTolerance  1e-06;
+}
+
+Adding new patch right_c as patch 7 from 
+{
+    type            cyclic;
+    neighbourPatch  left_c;
+    transform       translational;
+    separationVector ( -1 0 0 );
+    matchTolerance  1e-06;
+}
+
+Adding new patch bottom_c as patch 8 from 
+{
+    type            cyclic;
+    neighbourPatch  top_c;
+    transform       translational;
+    separationVector ( 0 1 0 );
+    matchTolerance  1e-06;
+}
+
+Adding new patch top_c as patch 9 from 
+{
+    type            cyclic;
+    neighbourPatch  bottom_c;
+    transform       translational;
+    separationVector ( 0 -1 0 );
+    matchTolerance  1e-06;
+}
+
+
+Moving faces from patch left to patch 6
+Moving faces from patch right to patch 7
+Moving faces from patch bottom to patch 8
+Moving faces from patch top to patch 9
+
+Doing topology modification to order faces.
+
+Not synchronising points.
+
+Removing patches with no faces in them.
+
+Removing zero-sized patch bottom type patch at position 2
+Removing zero-sized patch right type patch at position 3
+Removing zero-sized patch top type patch at position 4
+Removing zero-sized patch left type patch at position 5
+Removing patches.
+Writing repatched mesh to 0
+
+End
+

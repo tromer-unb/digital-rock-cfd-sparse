@@ -1,0 +1,238 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:                                        |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : OPENFOAM=1912 patch=200626
+Arch   : "LSB;label=32;scalar=64"
+Exec   : simpleFoam -parallel
+Date   : Oct 29 2026
+Time   : 18:42:58
+Host   : alienware
+PID    : 1203316
+I/O    : uncollated
+Case   : /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/fix-round/FR-H_openfoam_window_relax/R2-V_band0.08_pad0.1_c4
+nProcs : 6
+Hosts  :
+(
+    (alienware 6)
+)
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: convergence criteria
+    field p	 tolerance 1e-08
+    field U	 tolerance 1e-09
+
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+No finite volume options present
+
+Starting time loop
+
+Time = 1
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0, Final residual = 0, No Iterations 0
+DILUPBiCGStab:  Solving for Uy, Initial residual = 1, Final residual = 0.00095528932825648, No Iterations 129
+[4] #0  Foam::error::printStack(Foam::Ostream&)[5] #0  Foam::error::printStack(Foam::Ostream&)[2] #0  Foam::error::printStack(Foam::Ostream&)[3] #0  Foam::error::printStack(Foam::Ostream&)[1] #0  Foam::error::printStack(Foam::Ostream&)[0] #0  Foam::error::printStack(Foam::Ostream&) at ??:?
+ at  at  at ??:?
+[2] #1  Foam::sigFpe::sigHandler(int)??:?
+[5] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[0] #1  Foam::sigFpe::sigHandler(int) at ??:?
+[4] #1  Foam::sigFpe::sigHandler(int)??:?
+[3] #1  Foam::sigFpe::sigHandler(int)[1] #1  Foam::sigFpe::sigHandler(int) at ??:?
+ at ??:?
+ at ??:?
+ at ??:?
+[2] #2 at ??:?
+[1] #2  [4] #2  ?[5] #2  ? at ??:?
+[0] #2  ?  ?[3] #2  ?? in /lib/x86_64-linux-gnu/libc.so.6
+ in /lib/x86_64-linux-gnu/libc.so.6
+ in /lib/x86_64-linux-gnu/libc.so.6
+ in /lib/x86_64-linux-gnu/libc.so.6
+[5] #3  Foam::divide(Foam::Field<double>&, double const&, Foam::UList<double> const&)[0] #3  [1] #3  Foam::divide(Foam::Field<double>&, double const&, Foam::UList<double> const&)Foam::divide(Foam::Field<double>&, double const&, Foam::UList<double> const&)[2] #3  Foam::divide(Foam::Field<double>&, double const&, Foam::UList<double> const&) in /lib/x86_64-linux-gnu/libc.so.6
+ in /lib/x86_64-linux-gnu/libc.so.6
+[4] #3  Foam::divide(Foam::Field<double>&, double const&, Foam::UList<double> const&)[3] #3  Foam::divide(Foam::Field<double>&, double const&, Foam::UList<double> const&) at ??:?
+[0] #4   at ??:?
+[4] #4   at ??:?
+[2] #4   at ??:?
+[1] #4   at ??:?
+[5] #4   at ??:?
+[3] #4  ?????? in /usr/bin/simpleFoam
+ in /usr/bin/simpleFoam
+[0] #5  [5] #5   in  in /usr/bin/simpleFoam
+[2] #5  /usr/bin/simpleFoam
+[4] #5   in /usr/bin/simpleFoam
+[3] #5   in /usr/bin/simpleFoam
+[1] #5  ?????? in /usr/bin/simpleFoam
+[5] #6   in /usr/bin/simpleFoam
+[1] #6   in /usr/bin/simpleFoam
+[2] #6   in /usr/bin/simpleFoam
+[0] #6   in /usr/bin/simpleFoam
+ in [4] #6  /usr/bin/simpleFoam
+[3] #6  ?????? in /usr/bin/simpleFoam
+ in /usr/bin/simpleFoam
+ in /usr/bin/simpleFoam
+ in [3] #7  ?[1] #7  ?[0] #7  ?/usr/bin/simpleFoam
+[5] #7  ? in /usr/bin/simpleFoam
+[4] #7  ? in /usr/bin/simpleFoam
+[2] #7  ? in /lib/x86_64-linux-gnu/libc.so.6
+[5] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6 in /lib/x86_64-linux-gnu/libc.so.6
+
+[4] #8  [2] #8  __libc_start_main__libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[3] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+ in /lib/x86_64-linux-gnu/libc.so.6
+[1] #8  __libc_start_main[0] #8  __libc_start_main in /lib/x86_64-linux-gnu/libc.so.6
+[4] #9   in /lib/x86_64-linux-gnu/libc.so.6
+[5] #9   in /lib/x86_64-linux-gnu/libc.so.6
+[2] #9   in /lib/x86_64-linux-gnu/libc.so.6
+[3] #9   in /lib/x86_64-linux-gnu/libc.so.6
+[1] #9  ?? in /lib/x86_64-linux-gnu/libc.so.6
+[0] #9  ???? in  in  in /usr/bin/simpleFoam
+/usr/bin/simpleFoam
+/usr/bin/simpleFoam
+[alienware:1203321] *** Process received signal ***
+[alienware:1203321] Signal: Floating point exception (8)
+[alienware:1203321] Signal code:  (-6)
+[alienware:1203321] Failing at address: 0x3e800125c79
+[alienware:1203319] *** Process received signal ***
+[alienware:1203319] Signal: Floating point exception (8)
+[alienware:1203319] Signal code:  (-6)
+[alienware:1203319] Failing at address: 0x3e800125c77
+[alienware:1203320] *** Process received signal ***
+[alienware:1203320] Signal: Floating point exception (8)
+[alienware:1203320] Signal code:  (-6)
+[alienware:1203320] Failing at address: 0x3e800125c78
+[alienware:1203321] [ 0] [alienware:1203320] [ 0] [alienware:1203319] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7f7527c45330]
+[alienware:1203319] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7a9f0dc45330]
+[alienware:1203320] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7fec95e45330]
+[alienware:1203321] [ 1]  in /usr/bin/simpleFoam
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7fec95e9ec0c]
+[alienware:1203321] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7f7527c9ec0c]
+[alienware:1203319] [ 2] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7a9f0dc9ec0c]
+[alienware:1203320] [ 2] [alienware:1203318] *** Process received signal ***
+[alienware:1203318] Signal: Floating point exception (8)
+[alienware:1203318] Signal code:  (-6)
+[alienware:1203318] Failing at address: 0x3e800125c76
+/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7a9f0dc4527e]
+[alienware:1203320] [ 3] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7fec95e4527e]
+[alienware:1203321] [ 3] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7f7527c4527e]
+[alienware:1203319] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7f7527c45330]
+[alienware:1203319] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7a9f0dc45330]
+[alienware:1203320] [ 4] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7fec95e45330]
+[alienware:1203321] [ 4] [alienware:1203318] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7a0195845330]
+[alienware:1203318] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7a019589ec0c]
+[alienware:1203318] [ 2] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7a019584527e]
+[alienware:1203318] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7a0195845330]
+[alienware:1203318] [ 4] /lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKdRKNS_5UListIdEE+0x71)[0x7f752890b8b1]
+[alienware:1203319] [ 5] simpleFoam(+0x41e33)[0x620e6225fe33]
+[alienware:1203319] [ 6] simpleFoam(+0x213aa)[0x620e6223f3aa]
+[alienware:1203319] [ 7] /lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKdRKNS_5UListIdEE+0x71)[0x7a9f0e90b8b1]
+[alienware:1203320] [ 5] simpleFoam(+0x41e33)[0x64c41b10be33]
+[alienware:1203320] [ 6] simpleFoam(+0x213aa)[0x64c41b0eb3aa]
+[alienware:1203320] [ 7] simpleFoam(+0x1c7f8)[0x64c41b0e67f8]
+[alienware:1203320] [ 8] /lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKdRKNS_5UListIdEE+0x71)[0x7fec96b0b8b1]
+[alienware:1203321] [ 5] simpleFoam(+0x41e33)[0x5ec86da52e33]
+[alienware:1203321] [ 6] simpleFoam(+0x213aa)[0x5ec86da323aa]
+[alienware:1203321] [ 7] simpleFoam(+0x1c7f8)[0x5ec86da2d7f8]
+[alienware:1203321] [ 8] simpleFoam(+0x1c7f8)[0x620e6223a7f8]
+[alienware:1203319] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7f7527c2a1ca]
+[alienware:1203319] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7a9f0dc2a1ca]
+[alienware:1203320] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7fec95e2a1ca]
+[alienware:1203321] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7a9f0dc2a28b]
+[alienware:1203320] [10] simpleFoam(+0x1f3e5)[0x64c41b0e93e5]
+[alienware:1203320] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7f7527c2a28b]
+[alienware:1203319] [10] simpleFoam(+0x1f3e5)[0x620e6223d3e5]
+[alienware:1203319] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7fec95e2a28b]
+[alienware:1203321] [10] simpleFoam(+0x1f3e5)[0x5ec86da303e5]
+[alienware:1203321] *** End of error message ***
+/lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKdRKNS_5UListIdEE+0x71)[0x7a019650b8b1]
+[alienware:1203318] [ 5] simpleFoam(+0x41e33)[0x5b1c42f4fe33]
+[alienware:1203318] [ 6] simpleFoam(+0x213aa)[0x5b1c42f2f3aa]
+[alienware:1203318] [ 7] simpleFoam(+0x1c7f8)[0x5b1c42f2a7f8]
+[alienware:1203318] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7a019582a1ca]
+[alienware:1203318] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7a019582a28b]
+[alienware:1203318] [10] simpleFoam(+0x1f3e5)[0x5b1c42f2d3e5]
+[alienware:1203318] *** End of error message ***
+ in /usr/bin/simpleFoam
+[alienware:1203317] *** Process received signal ***
+[alienware:1203317] Signal: Floating point exception (8)
+[alienware:1203317] Signal code:  (-6)
+[alienware:1203317] Failing at address: 0x3e800125c75
+[alienware:1203317] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7119ef245330]
+[alienware:1203317] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7119ef29ec0c]
+[alienware:1203317] [ 2] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7119ef24527e]
+[alienware:1203317] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7119ef245330]
+[alienware:1203317] [ 4]  in /usr/bin/simpleFoam
+[alienware:1203316] *** Process received signal ***
+[alienware:1203316] Signal: Floating point exception (8)
+[alienware:1203316] Signal code:  (-6)
+[alienware:1203316] Failing at address: 0x3e800125c74
+/lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKdRKNS_5UListIdEE+0x71)[0x7119eff0b8b1]
+[alienware:1203317] [ 5] simpleFoam(+0x41e33)[0x557e2ca7fe33]
+[alienware:1203317] [ 6] simpleFoam(+0x213aa)[0x557e2ca5f3aa]
+[alienware:1203317] [ 7] simpleFoam(+0x1c7f8)[0x557e2ca5a7f8]
+[alienware:1203317] [ 8] [alienware:1203316] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7119ef22a1ca]
+[alienware:1203317] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7119ef22a28b]
+[alienware:1203317] [10] simpleFoam(+0x1f3e5)[0x557e2ca5d3e5]
+[alienware:1203317] *** End of error message ***
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7a8a63445330]
+[alienware:1203316] [ 1] /lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x11c)[0x7a8a6349ec0c]
+[alienware:1203316] [ 2] /lib/x86_64-linux-gnu/libc.so.6(gsignal+0x1e)[0x7a8a6344527e]
+[alienware:1203316] [ 3] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7a8a63445330]
+[alienware:1203316] [ 4] /lib/libOpenFOAM.so(_ZN4Foam6divideERNS_5FieldIdEERKdRKNS_5UListIdEE+0x71)[0x7a8a6410b8b1]
+[alienware:1203316] [ 5] simpleFoam(+0x41e33)[0x5bf7bddc3e33]
+[alienware:1203316] [ 6] simpleFoam(+0x213aa)[0x5bf7bdda33aa]
+[alienware:1203316] [ 7] simpleFoam(+0x1c7f8)[0x5bf7bdd9e7f8]
+[alienware:1203316] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x7a8a6342a1ca]
+[alienware:1203316] [ 9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x7a8a6342a28b]
+[alienware:1203316] [10] simpleFoam(+0x1f3e5)[0x5bf7bdda13e5]
+[alienware:1203316] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 5 with PID 0 on node alienware exited on signal 8 (Floating point exception).
+--------------------------------------------------------------------------

@@ -1,0 +1,35 @@
+{
+ "R3H": {
+  "r_c_px": 13.453623732653613,
+  "critical_throat_width_px": 26.907247465307226,
+  "max_inscribed_radius_px": 841.1070086499101,
+  "shape": [
+   4096,
+   3440
+  ],
+  "fluid_px": 8388573,
+  "frac_fluid_within_1.5px_of_wall": 0.0041754419971072555
+ },
+ "R2V": {
+  "r_c_px": 30.265491765936854,
+  "critical_throat_width_px": 60.53098353187371,
+  "max_inscribed_radius_px": 265.34505836740203,
+  "shape": [
+   3440,
+   4096
+  ],
+  "fluid_px": 2081465,
+  "frac_fluid_within_1.5px_of_wall": 0.020721463008025597
+ },
+ "R3V": {
+  "r_c_px": 395.79034849088646,
+  "critical_throat_width_px": 791.5806969817729,
+  "max_inscribed_radius_px": 674.894065761435,
+  "shape": [
+   3440,
+   4096
+  ],
+  "fluid_px": 7199405,
+  "frac_fluid_within_1.5px_of_wall": 0.00475844878847627
+ }
+}

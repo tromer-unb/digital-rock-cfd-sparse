@@ -1,0 +1,8 @@
+FoamFile { version 2.0; format ascii; class dictionary; object createPatchDict; }
+pointSync false;
+patches (
+  { name left_c; patchInfo { type cyclic; neighbourPatch right_c; transform translational; separationVector (1 0 0); matchTolerance 1e-6; } constructFrom patches; patches (left); }
+  { name right_c; patchInfo { type cyclic; neighbourPatch left_c; transform translational; separationVector (-1 0 0); matchTolerance 1e-6; } constructFrom patches; patches (right); }
+  { name bottom_c; patchInfo { type cyclic; neighbourPatch top_c; transform translational; separationVector (0 1 0); matchTolerance 1e-6; } constructFrom patches; patches (bottom); }
+  { name top_c; patchInfo { type cyclic; neighbourPatch bottom_c; transform translational; separationVector (0 -1 0); matchTolerance 1e-6; } constructFrom patches; patches (top); }
+);

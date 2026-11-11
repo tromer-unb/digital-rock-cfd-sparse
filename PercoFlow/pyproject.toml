@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "percoflow"
+version = "1.0.0"
+description = "PercoFlow: percolation-aware flow solver for the permeability of 2D porous images and meshes, with an independent OpenFOAM cross-check"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Raphael M. Tromer" },
+  { name = "Alysson Martins Almeida Silva" },
+  { name = "Paola Ferreira Barbosa" },
+  { name = "Roberto Ventura Santos" },
+  { name = "Luiz Antonio Ribeiro Junior" },
+]
+keywords = ["porous media", "permeability", "Stokes flow", "finite elements", "percolation", "digital rock", "OpenFOAM"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Operating System :: POSIX :: Linux",
+]
+# Lower bounds are the oldest versions we expect to work; the exact versions used for the
+# reference results are pinned in requirements-lock.txt.
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-fem>=10.0",
+  "scikit-image>=0.22",
+  "gmsh>=4.11",
+  "meshio>=5.3",
+  "pillow>=10.0",
+  "matplotlib>=3.8",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+percoflow = "percoflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+percoflow = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "openfoam: needs an OpenFOAM installation (always run; see docs/OPENFOAM.md)",
+  "slow: takes more than about a minute on one core",
+  "regression: reference numbers of the example inputs (exact digits need requirements-lock.txt)",
+]

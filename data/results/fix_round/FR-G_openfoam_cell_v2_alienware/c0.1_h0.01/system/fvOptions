@@ -1,0 +1,3 @@
+FoamFile { version 2.0; format ascii; class dictionary; object fvOptions; }
+bodyForce { type vectorSemiImplicitSource; active true; selectionMode all; volumeMode specific;
+  injectionRateSuSp { U ((1.0 0 0) 0); } }

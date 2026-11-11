@@ -1,0 +1,14 @@
+Reference results of PercoFlow 1.0.0
+code commit       : 406eeefe13015d29c7890ada20401e94a996ec15 (clean working tree: git status empty before and after the runs)
+date (UTC)        : 2026-11-06T22:24Z
+machine           : Linux x86_64, Linux Mint 22.3, kernel 7.0.0-38-generic, 32 hardware threads; runs on 1 thread (nice 19)
+python            : 3.12.3, packages exactly as in requirements-lock.txt
+OpenFOAM          : v1912 (Ubuntu package openfoam 1912.200626-2build3, extracted in user space)
+thread settings   : OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
+commands (from the repository root, outputs written outside the repository and copied here afterwards):
+  pytest -q                                                                     -> pytest.txt (19 passed)
+  percoflow image examples/synthetic_rock.png -o OUT/rock_lr --level 3 --config docs/reference_results/reference_run.yaml
+  percoflow image examples/synthetic_rock.png -o OUT/rock_tb --direction tb --level 3 --config docs/reference_results/reference_run.yaml
+  percoflow mesh  examples/obstacles.msh      -o OUT/obstacles --config docs/reference_results/reference_run.yaml
+  percoflow benchmark -o OUT/bench                                              -> benchmark_report.json (STATUS: PASS)
+Every example directory verifies with: percoflow verify docs/reference_results/examples/<run>

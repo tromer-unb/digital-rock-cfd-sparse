@@ -1,0 +1,77 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the article (preferred citation) and the software PercoFlow."
+title: "digital-rock-cfd-sparse: code, data and reproduction package of 'A Percolation-Aware Sparse Finite-Element Workflow for Rapid Hydraulic Characterization of Digital Rocks'"
+type: software
+license: MIT
+repository-code: "https://github.com/tromer-unb/digital-rock-cfd-sparse"
+date-released: 2026-11-11
+authors:
+  - family-names: Tromer
+    given-names: Raphael M.
+    affiliation: "Institute of Physics, University of Brasília"
+  - family-names: Silva
+    given-names: Alysson Martins Almeida
+    affiliation: "Department of Mechanical Engineering and LMCNano, University of Brasília"
+  - family-names: Barbosa
+    given-names: Paola Ferreira
+    affiliation: "Institute of Geosciences, University of Brasília"
+  - family-names: Santos
+    given-names: Roberto Ventura
+    affiliation: "Institute of Geosciences, University of Brasília"
+  - family-names: Ribeiro Junior
+    given-names: Luiz Antonio
+    affiliation: "Department of Physics, NTNU, and LCCMat, Institute of Physics, University of Brasília"
+    email: luiz.a.ribeiro@ntnu.no
+keywords:
+  - digital rock
+  - permeability
+  - Stokes flow
+  - finite elements
+  - percolation
+  - OpenFOAM
+  - reproducibility
+references:
+  - type: software
+    title: "PercoFlow: percolation-aware flow solver for the permeability of two-dimensional porous images and meshes"
+    version: 1.0.0
+    license: MIT
+    notes: "Included in the folder PercoFlow/ of this repository."
+    authors:
+      - family-names: Tromer
+        given-names: Raphael M.
+        affiliation: "Institute of Physics, University of Brasília"
+      - family-names: Silva
+        given-names: Alysson Martins Almeida
+        affiliation: "Department of Mechanical Engineering and LMCNano, University of Brasília"
+      - family-names: Barbosa
+        given-names: Paola Ferreira
+        affiliation: "Institute of Geosciences, University of Brasília"
+      - family-names: Santos
+        given-names: Roberto Ventura
+        affiliation: "Institute of Geosciences, University of Brasília"
+      - family-names: Ribeiro Junior
+        given-names: Luiz Antonio
+        affiliation: "Department of Physics, NTNU, and LCCMat, Institute of Physics, University of Brasília"
+        email: luiz.a.ribeiro@ntnu.no
+preferred-citation:
+  type: article
+  title: "A Percolation-Aware Sparse Finite-Element Workflow for Rapid Hydraulic Characterization of Digital Rocks"
+  year: 2026
+  notes: "Submitted. Journal, volume and DOI will be added on publication."
+  authors:
+    - family-names: Tromer
+      given-names: Raphael M.
+      affiliation: "Institute of Physics, University of Brasília"
+    - family-names: Silva
+      given-names: Alysson Martins Almeida
+      affiliation: "Department of Mechanical Engineering and LMCNano, University of Brasília"
+    - family-names: Barbosa
+      given-names: Paola Ferreira
+      affiliation: "Institute of Geosciences, University of Brasília"
+    - family-names: Santos
+      given-names: Roberto Ventura
+      affiliation: "Institute of Geosciences, University of Brasília"
+    - family-names: Ribeiro Junior
+      given-names: Luiz Antonio
+      affiliation: "Department of Physics, NTNU, and LCCMat, Institute of Physics, University of Brasília"
+      email: luiz.a.ribeiro@ntnu.no

@@ -1,0 +1,30 @@
+# Clean-machine check: install from requirements-lock.txt, install OpenFOAM from Ubuntu, run ALL tests (OpenFOAM included).
+# Manual trigger only (Actions tab -> tests -> Run workflow): GitHub Actions minutes are billed on private repositories.
+# To run it on every push, add `push: {branches: [main]}` and `pull_request:` under `on:`.
+name: tests
+on:
+  workflow_dispatch:
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: System packages (OpenFOAM v1912 from Ubuntu, OpenGL runtime for gmsh)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openfoam libglu1-mesa libxcursor1 libxinerama1 libxft2
+      - name: Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-lock.txt
+          pip install -e ".[dev]"
+      - name: Locate OpenFOAM
+        run: percoflow openfoam-check
+      - name: Example inputs
+        run: python examples/make_examples.py
+      - name: Tests (OpenFOAM included, never skipped)
+        run: pytest -q

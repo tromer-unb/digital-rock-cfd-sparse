@@ -1,0 +1,40 @@
+{
+ "speed_normalisation": "U = Q/W",
+ "speed_colour_range": [
+  0.001,
+  1000.0
+ ],
+ "R3-H": {
+  "bbox_cropped_frame": [
+   -0.5,
+   3439.5,
+   -0.5,
+   4095.5
+  ],
+  "speed_max_over_U": 209.65681195586077,
+  "pstar_vertex_below0": 0.01056333197671494,
+  "pstar_vertex_above1": 0.010737101074167395
+ },
+ "R2-V": {
+  "bbox_cropped_frame": [
+   2518.5,
+   4095.5,
+   -0.5,
+   3439.5
+  ],
+  "speed_max_over_U": 96.22533395921836,
+  "pstar_vertex_below0": 0.0011644102735528443,
+  "pstar_vertex_above1": 0.016257173101565547
+ },
+ "R3-V": {
+  "bbox_cropped_frame": [
+   80.5,
+   4095.5,
+   -0.5,
+   3439.5
+  ],
+  "speed_max_over_U": 5.732425563739909,
+  "pstar_vertex_below0": 0.368299452636802,
+  "pstar_vertex_above1": 0.02105203310022587
+ }
+}

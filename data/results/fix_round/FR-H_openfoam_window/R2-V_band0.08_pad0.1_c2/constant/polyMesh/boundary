@@ -1,0 +1,8 @@
+FoamFile { version 2.0; format ascii; class polyBoundaryMesh; object boundary; }
+4
+(
+  inlet { type patch; nFaces 2048; startFace 2445903; }
+  outlet { type patch; nFaces 2048; startFace 2447951; }
+  walls { type wall; nFaces 25006; startFace 2449999; }
+  frontAndBack { type empty; nFaces 2460454; startFace 2475005; }
+)

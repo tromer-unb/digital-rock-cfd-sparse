@@ -1,0 +1,411 @@
+{
+ "status": "PASS",
+ "quick": true,
+ "results": {
+  "B1_poiseuille": {
+   "benchmark": "poiseuille_exactness",
+   "rows": [
+    {
+     "h": 20,
+     "L_s": 400,
+     "level": 1,
+     "element": "p2",
+     "k_D": 33.16751226112947,
+     "exact": 33.16749585406302,
+     "rel_err": 4.946730534083343e-07,
+     "n_dof": 988,
+     "energy_identity_relerr": 3.676368835610756e-15
+    },
+    {
+     "h": 20,
+     "L_s": 400,
+     "level": 1,
+     "element": "mini",
+     "k_D": 26.598638391158666,
+     "exact": 33.16749585406302,
+     "rel_err": -0.1980510525065663,
+     "n_dof": 730,
+     "energy_identity_relerr": 3.9752517662141174e-16
+    },
+    {
+     "h": 20,
+     "L_s": 400,
+     "level": 3,
+     "element": "p2",
+     "k_D": 33.16749585902509,
+     "exact": 33.16749585406302,
+     "rel_err": 1.4960632732652357e-10,
+     "n_dof": 7054,
+     "energy_identity_relerr": 8.63125043897386e-15
+    },
+    {
+     "h": 20,
+     "L_s": 400,
+     "level": 3,
+     "element": "mini",
+     "k_D": 32.436990339980035,
+     "exact": 33.16749585406302,
+     "rel_err": -0.022024741249601965,
+     "n_dof": 5376,
+     "energy_identity_relerr": 2.6156558927361e-15
+    },
+    {
+     "h": 20,
+     "L_s": 400,
+     "level": 5,
+     "element": "p2",
+     "k_D": 33.16749585269345,
+     "exact": 33.16749585406302,
+     "rel_err": -4.129252495488345e-11,
+     "n_dof": 35317,
+     "energy_identity_relerr": 7.991710504308239e-16
+    },
+    {
+     "h": 20,
+     "L_s": 400,
+     "level": 5,
+     "element": "mini",
+     "k_D": 32.959555256552484,
+     "exact": 33.16749585406302,
+     "rel_err": -0.006269409014942662,
+     "n_dof": 27177,
+     "energy_identity_relerr": 7.880860739707579e-15
+    },
+    {
+     "h": 40,
+     "L_s": 800,
+     "level": 1,
+     "element": "p2",
+     "k_D": 133.00083136556478,
+     "exact": 133.00083125519535,
+     "rel_err": 8.298401965589619e-10,
+     "n_dof": 3344,
+     "energy_identity_relerr": 1.5986448014055766e-16
+    },
+    {
+     "h": 40,
+     "L_s": 800,
+     "level": 1,
+     "element": "mini",
+     "k_D": 126.3978987959452,
+     "exact": 133.00083125519535,
+     "rel_err": -0.04964579842798711,
+     "n_dof": 2526,
+     "energy_identity_relerr": 5.044914835903844e-16
+    },
+    {
+     "h": 40,
+     "L_s": 800,
+     "level": 3,
+     "element": "p2",
+     "k_D": 133.00083125325364,
+     "exact": 133.00083125519535,
+     "rel_err": -1.4599210729215883e-11,
+     "n_dof": 23383,
+     "energy_identity_relerr": 2.557812225443268e-15
+    },
+    {
+     "h": 40,
+     "L_s": 800,
+     "level": 3,
+     "element": "mini",
+     "k_D": 132.04301721087958,
+     "exact": 133.00083125519535,
+     "rel_err": -0.007201564345699185,
+     "n_dof": 17967,
+     "energy_identity_relerr": 1.4331311380304012e-14
+    },
+    {
+     "h": 40,
+     "L_s": 800,
+     "level": 5,
+     "element": "p2",
+     "k_D": 133.00083125324318,
+     "exact": 133.00083125519535,
+     "rel_err": -1.4677925541661807e-11,
+     "n_dof": 74175,
+     "energy_identity_relerr": 7.833258836330978e-15
+    },
+    {
+     "h": 40,
+     "L_s": 800,
+     "level": 5,
+     "element": "mini",
+     "k_D": 131.34588529045882,
+     "exact": 133.00083125519535,
+     "rel_err": -0.012443124972362773,
+     "n_dof": 57119,
+     "energy_identity_relerr": 1.0031280112955627e-14
+    }
+   ],
+   "criterion": "Taylor-Hood |rel_err| < 1e-5",
+   "max_abs_rel_err_taylor_hood": 4.946730534083343e-07,
+   "pass": true
+  },
+  "B2_cylinder_array": {
+   "benchmark": "cylinder_array_fe_vs_hasimoto",
+   "rows": [
+    {
+     "k": 0.06431270318349487,
+     "n_triangles": 22300,
+     "n_dof": 101550,
+     "residual": 1.3305260487241944e-11,
+     "c": 0.05,
+     "h": 0.01,
+     "k_hasimoto": 0.06429090877312112,
+     "rel_diff": 0.00033899676936699485
+    },
+    {
+     "k": 0.040286968029303476,
+     "n_triangles": 21624,
+     "n_dof": 98598,
+     "residual": 1.8744451109371842e-11,
+     "c": 0.1,
+     "h": 0.01,
+     "k_hasimoto": 0.04030284972801193,
+     "rel_diff": -0.00039405895155386617
+    },
+    {
+     "k": 0.02755786177811868,
+     "n_triangles": 20140,
+     "n_dof": 91980,
+     "residual": 6.669476554681688e-12,
+     "c": 0.15,
+     "h": 0.01,
+     "k_hasimoto": 0.02765163889451788,
+     "rel_diff": -0.003391376430052828
+    },
+    {
+     "k": 0.019414115539103903,
+     "n_triangles": 18854,
+     "n_dof": 86243,
+     "residual": 5.362039481734435e-12,
+     "c": 0.2,
+     "h": 0.01,
+     "k_hasimoto": 0.01969884255476208,
+     "rel_diff": -0.014453997226824278
+    }
+   ],
+   "criterion": "|rel_diff| <= 0.005 for c <= 0.15",
+   "max_abs_rel_diff_dilute": 0.003391376430052828,
+   "pass": true
+  },
+  "B3_openfoam_channel": {
+   "benchmark": "openfoam_channel_exactness",
+   "openfoam": {
+    "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+    "version": "v1912"
+   },
+   "k_fv": 20.975609756089398,
+   "exact": 20.975609756097562,
+   "rel_err": -3.892441924335799e-13,
+   "fv": {
+    "k_D": 20.975609756089398,
+    "Q": 0.00035833333333331474,
+    "dP": 0.8541666666669547,
+    "L_s": 80,
+    "W": 16,
+    "b": 8,
+    "n_cells": 1536,
+    "flux_mismatch_in_out": 1.3403764532402886e-13,
+    "Re_window_scale": 3.583333333333148e-08,
+    "mesh_ok": true,
+    "max_non_orthogonality": 0.0,
+    "converged": true,
+    "converged_by": "pressure initial residual < 1e-09",
+    "p_initial_residual_last": 6.4795612115574e-14,
+    "Ux_initial_residual_last": 2.3004484461116e-13,
+    "Uy_initial_residual_last": 0.082404007121298,
+    "iterations": 5000
+   },
+   "criterion": "|rel_err| < 1e-6",
+   "pass": true
+  },
+  "B4_openfoam_cylinder": {
+   "benchmark": "openfoam_cylinder_cell",
+   "openfoam": {
+    "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+    "version": "v1912"
+   },
+   "nu": 100.0,
+   "f": 1.0,
+   "rows": [
+    {
+     "c": 0.1,
+     "fv_meshes": [
+      {
+       "c": 0.1,
+       "h": 0.04,
+       "cells_per_edge": 25,
+       "cells_radial": 13,
+       "mesh_ok": true,
+       "converged": true,
+       "iterations": 845,
+       "k": 0.04082529272017515,
+       "Re": 4.082529272017515e-06,
+       "flux_mismatch": 6.056351074566368e-13
+      },
+      {
+       "c": 0.1,
+       "h": 0.02,
+       "cells_per_edge": 50,
+       "cells_radial": 26,
+       "mesh_ok": true,
+       "converged": true,
+       "iterations": 3114,
+       "k": 0.04032830267292817,
+       "Re": 4.032830267292816e-06,
+       "flux_mismatch": 6.21567300542302e-13
+      },
+      {
+       "c": 0.1,
+       "h": 0.01,
+       "cells_per_edge": 100,
+       "cells_radial": 53,
+       "mesh_ok": true,
+       "converged": true,
+       "iterations": 11800,
+       "k": 0.04024204888783274,
+       "Re": 4.024204888783274e-06,
+       "flux_mismatch": 6.27883826198877e-13
+      }
+     ],
+     "k_fv_finest": 0.04024204888783274,
+     "conv_last_step": -0.002138790362564147,
+     "k_fe": 0.040286968029303476,
+     "fe_mesh_h": 0.01,
+     "rel_diff_fv_vs_fe": -0.0011149794503786392,
+     "k_hasimoto": 0.04030284972801193
+    },
+    {
+     "c": 0.2,
+     "fv_meshes": [
+      {
+       "c": 0.2,
+       "h": 0.04,
+       "cells_per_edge": 25,
+       "cells_radial": 11,
+       "mesh_ok": true,
+       "converged": true,
+       "iterations": 515,
+       "k": 0.019612248682751857,
+       "Re": 1.9612248682751857e-06,
+       "flux_mismatch": 9.33158301610287e-13
+      },
+      {
+       "c": 0.2,
+       "h": 0.02,
+       "cells_per_edge": 50,
+       "cells_radial": 23,
+       "mesh_ok": true,
+       "converged": true,
+       "iterations": 1990,
+       "k": 0.019413306500329904,
+       "Re": 1.94133065003299e-06,
+       "flux_mismatch": 9.522152777304429e-13
+      },
+      {
+       "c": 0.2,
+       "h": 0.01,
+       "cells_per_edge": 100,
+       "cells_radial": 45,
+       "mesh_ok": true,
+       "converged": true,
+       "iterations": 7231,
+       "k": 0.019389757778542595,
+       "Re": 1.9389757778542595e-06,
+       "flux_mismatch": 9.56866500786826e-13
+      }
+     ],
+     "k_fv_finest": 0.019389757778542595,
+     "conv_last_step": -0.0012130196258379744,
+     "k_fe": 0.019414115539103903,
+     "fe_mesh_h": 0.01,
+     "rel_diff_fv_vs_fe": -0.001254641784337096,
+     "k_hasimoto": 0.01969884255476208
+    }
+   ],
+   "criteria": {
+    "i_fv_convergence_lt_1pct": 0.002138790362564147,
+    "ii_fv_vs_fe_lt_2pct": 0.001254641784337096,
+    "all_mesh_ok_and_converged": true
+   },
+   "pass": true
+  },
+  "B5_openfoam_porous": {
+   "benchmark": "openfoam_porous_window",
+   "report": {
+    "status": "completed",
+    "openfoam": {
+     "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+     "version": "v1912"
+    },
+    "scope": "full domain",
+    "face_connected_pixels": 13778,
+    "pairs": [
+     {
+      "tag": "window_r0_c0",
+      "origin_rc_in_lr_frame": [
+       0,
+       0
+      ],
+      "shape": [
+       160,
+       160
+      ],
+      "pore_pixels": 13778,
+      "k_fe_contour": 1.9969182830929075,
+      "k_fv_pixel": 2.029795318879688,
+      "rel_diff_fv_vs_fe": 0.016463886411946405,
+      "fv": {
+       "k_D": 2.029795318879688,
+       "Q": 0.0002013437246329748,
+       "dP": 0.9919410236107113,
+       "L_s": 160,
+       "W": 160,
+       "b": 16,
+       "n_cells": 18898,
+       "flux_mismatch_in_out": 2.061515698915114e-11,
+       "Re_window_scale": 2.013437246329748e-08,
+       "mesh_ok": true,
+       "max_non_orthogonality": 0.0,
+       "converged": true,
+       "converged_by": "simpleFoam residualControl",
+       "p_initial_residual_last": 2.2720179051871e-13,
+       "Ux_initial_residual_last": 8.3427930008e-12,
+       "Uy_initial_residual_last": 9.8338729190623e-11,
+       "iterations": 813
+      },
+      "fe_mesh": {
+       "contours": 20,
+       "surfaces": 1,
+       "nodes": 8890,
+       "inlet_curves": 3,
+       "outlet_curves": 3,
+       "wall_curves": 780,
+       "sizes": {
+        "h_min": 1.5,
+        "h_max": 12.0,
+        "d_min": 1.5,
+        "d_max": 24.0
+       }
+      },
+      "flag": "ok"
+     }
+    ],
+    "summary": {
+     "n": 1,
+     "median_abs_rel_diff": 0.016463886411946405,
+     "mean_rel_diff": 0.016463886411946405,
+     "min_rel_diff": 0.016463886411946405,
+     "max_rel_diff": 0.016463886411946405,
+     "all_fv_converged": true,
+     "all_mesh_ok": true
+    },
+    "interpretation": "FV keeps the pixel staircase, FE a smooth contour; the difference measures the wall representation"
+   },
+   "criterion": "FV converged, mesh OK; difference reported",
+   "pass": true
+  }
+ }
+}

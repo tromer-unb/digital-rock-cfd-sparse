@@ -1,0 +1,8 @@
+# Configuration of the reference example runs stored in docs/reference_results/examples/.
+# Identical to the defaults except that the large output files (mesh, fields) are not written, so that the run
+# directories stay small enough for git. The computed numbers do not depend on these output switches.
+output:
+  save_mesh: false
+  save_fields: false
+  save_vtk: false
+  figures: true

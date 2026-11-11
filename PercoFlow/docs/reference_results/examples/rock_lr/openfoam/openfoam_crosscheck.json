@@ -1,0 +1,70 @@
+{
+ "status": "completed",
+ "openfoam": {
+  "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+  "version": "v1912"
+ },
+ "scope": "full domain",
+ "face_connected_pixels": 20832,
+ "pairs": [
+  {
+   "tag": "window_r0_c0",
+   "origin_rc_in_lr_frame": [
+    0,
+    0
+   ],
+   "shape": [
+    200,
+    202
+   ],
+   "pore_pixels": 20832,
+   "k_fe_contour": 0.29725450671470427,
+   "k_fv_pixel": 0.29310883253005254,
+   "rel_diff_fv_vs_fe": -0.013946547793237007,
+   "fv": {
+    "k_D": 0.29310883253005254,
+    "Q": 2.9003602318764028e-05,
+    "dP": 0.9994116550188976,
+    "L_s": 202,
+    "W": 200,
+    "b": 20,
+    "n_cells": 28832,
+    "flux_mismatch_in_out": 5.838661456108572e-11,
+    "Re_window_scale": 2.9003602318764027e-09,
+    "mesh_ok": true,
+    "max_non_orthogonality": 0.0,
+    "converged": true,
+    "converged_by": "simpleFoam residualControl",
+    "p_initial_residual_last": 1.869805539138e-13,
+    "Ux_initial_residual_last": 2.2355539042986e-11,
+    "Uy_initial_residual_last": 9.9455012729118e-11,
+    "iterations": 1209
+   },
+   "fe_mesh": {
+    "contours": 12,
+    "surfaces": 1,
+    "nodes": 3591,
+    "inlet_curves": 3,
+    "outlet_curves": 3,
+    "wall_curves": 995,
+    "sizes": {
+     "h_min": 4.0,
+     "h_max": 30.0,
+     "d_min": 4.0,
+     "d_max": 60.0
+    }
+   },
+   "flag": "ok"
+  }
+ ],
+ "summary": {
+  "n": 1,
+  "median_abs_rel_diff": 0.013946547793237007,
+  "mean_rel_diff": -0.013946547793237007,
+  "min_rel_diff": -0.013946547793237007,
+  "max_rel_diff": -0.013946547793237007,
+  "all_fv_converged": true,
+  "all_mesh_ok": true
+ },
+ "interpretation": "FV keeps the pixel staircase, FE a smooth contour; the difference measures the wall representation"
+}

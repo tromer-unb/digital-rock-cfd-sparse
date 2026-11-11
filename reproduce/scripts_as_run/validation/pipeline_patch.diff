@@ -1,0 +1,4 @@
+140c140
+<     min_contour_points: int = 8
+---
+>     min_contour_points: int = 4

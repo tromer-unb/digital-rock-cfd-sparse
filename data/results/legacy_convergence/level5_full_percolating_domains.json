@@ -1,0 +1,29 @@
+{
+ "convergence_mesh_05_extra_fine/lr/patch_y7600_x53200_c0_mask/full_percolating_domain.npy": {
+  "sha256": "8641b9b348b5a250982793dabb73c21038d50f04ea6820d6051f6829a9e40516",
+  "dtype": "bool",
+  "shape": [
+   4096,
+   3440
+  ],
+  "n_true": 8388573
+ },
+ "convergence_mesh_05_extra_fine/tb/patch_y7600_x19000_c0_mask/full_percolating_domain.npy": {
+  "sha256": "d0b3fcae599389e343d1ecfdd565265e310739e13eacaec59ba8c53d5176d263",
+  "dtype": "bool",
+  "shape": [
+   3440,
+   4096
+  ],
+  "n_true": 2081465
+ },
+ "convergence_mesh_05_extra_fine/tb/patch_y7600_x53200_c0_mask/full_percolating_domain.npy": {
+  "sha256": "757b7da161622db669fd5b921df60c6e32f28d89780888a18d134bf33154b82b",
+  "dtype": "bool",
+  "shape": [
+   3440,
+   4096
+  ],
+  "n_true": 7199405
+ }
+}

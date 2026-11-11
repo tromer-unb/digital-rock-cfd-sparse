@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Matched sub-windows of $512\times512$ px of R2-V, in order of increasing permeability. Columns give the index used in main-text Figure~4e, the sub-window tag, the percolating porosity in percent, the contour finite-element (Taylor--Hood, mesh level 5) and pixel finite-volume permeabilities in px$^{2}$, their relative difference in percent, the number of triangles and the wall time in seconds (meshing plus LU, one process) of the finite-element solution, and the number of cells, the number of SIMPLEC iterations, the wall time in seconds (meshing plus solve), and the number of processes of the finite-volume solution.}
+\label{tab:subwindows}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{rlrrrrrrrrrr}
+\toprule
+ & & & \multicolumn{2}{c}{$k_D$ (px$^{2}$)} & & \multicolumn{2}{c}{Contour FE} & \multicolumn{4}{c}{Pixel FV} \\
+\cmidrule(lr){4-5}\cmidrule(lr){7-8}\cmidrule(lr){9-12}
+ & Tag & $\phi$ (\%) & FE & FV & Diff. (\%) & $N_{\mathrm{tri}}$ & Time & Cells & Iterations & Time & Proc. \\
+\midrule
+1 & t0\_5 & 66.6 & 8.4 & 8.5 & $+1.8$ & 44,035 & 2.4 & 226,843 & 10,937 & 326 & 9 \\
+2 & t0\_6 & 41.8 & 8.7 & 8.8 & $+0.5$ & 42,428 & 1.8 & 161,803 & 4,867 & 163 & 6 \\
+3 & t1\_5 & 45.1 & 60.0 & 56.0 & $-6.7$ & 47,038 & 2.7 & 170,582 & 5,866 & 242 & 6 \\
+4 & t5\_6 & 65.5 & 144.9 & 144.0 & $-0.6$ & 51,633 & 2.7 & 224,058 & 16,550 & 596 & 8 \\
+5 & t0\_7 & 75.9 & 192.4 & 130.5 & $-32.1$ & 46,178 & 2.9 & 251,267 & 17,168 & 662 & 10 \\
+6 & t5\_7 & 60.2 & 193.4 & 185.0 & $-4.4$ & 55,358 & 2.6 & 210,071 & 6,076 & 271 & 8 \\
+7 & t3\_6 & 62.9 & 235.0 & 215.1 & $-8.5$ & 40,451 & 2.1 & 217,201 & 9,728 & 487 & 8 \\
+8 & t4\_6 & 60.3 & 278.3 & 278.4 & $+0.0$ & 36,106 & 2.1 & 210,313 & 10,632 & 513 & 8 \\
+9 & t1\_7 & 66.2 & 1244.3 & 1242.2 & $-0.2$ & 38,365 & 2.0 & 225,685 & 24,133 & 1118 & 9 \\
+10 & t1\_6 & 78.1 & 1386.4 & 1390.1 & $+0.3$ & 34,671 & 1.8 & 256,992 & 24,547 & 1219 & 10 \\
+11 & t2\_6 & 69.9 & 1887.0 & 1843.0 & $-2.3$ & 33,149 & 1.9 & 235,585 & 27,963 & 1465 & 9 \\
+\bottomrule
+\end{tabular}
+\end{table}

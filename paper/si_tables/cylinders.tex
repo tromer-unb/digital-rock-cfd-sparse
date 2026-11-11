@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Periodic square array of cylinders. Columns give the solid fraction $c$, the number of triangles of the finest Taylor--Hood mesh, the Taylor--Hood permeability $k/L^{2}$ on that mesh, its relative change from the preceding mesh in percent, the dilute series of equation~\eqref{eq:hasimoto}, the deviation of the Taylor--Hood value from the series in percent, the OpenFOAM permeability on its finest mesh of 200 cells per cell side, and the deviation of the OpenFOAM value from the Taylor--Hood value in percent.}
+\label{tab:cylinders}
+\small
+\begin{tabular}{rrrrrrrr}
+\toprule
+$c$ & $N_{\mathrm{tri}}$ & $k/L^{2}$, FE & Last step (\%) & Series & FE vs series (\%) & $k/L^{2}$, FV & FV vs FE (\%) \\
+\midrule
+0.02 & 23,498 & 0.09857 & $-0.215$ & 0.09849 & $+0.08$ & -- & -- \\
+0.05 & 22,300 & 0.06431 & $-0.165$ & 0.06429 & $+0.03$ & 0.06424 & $-0.111$ \\
+0.1 & 21,624 & 0.04029 & $-0.105$ & 0.04030 & $-0.04$ & 0.04024 & $-0.109$ \\
+0.15 & 20,140 & 0.02756 & $-0.098$ & 0.02765 & $-0.34$ & -- & -- \\
+0.2 & 18,854 & 0.01941 & $-0.103$ & 0.01970 & $-1.45$ & 0.01939 & $-0.108$ \\
+0.3 & 16,564 & 0.00972 & $-0.101$ & 0.01108 & $-12.21$ & -- & -- \\
+0.4 & 14,294 & 0.00459 & $-0.115$ & 0.00865 & $-46.90$ & 0.00459 & $-0.087$ \\
+0.5 & 11,880 & 0.00188 & $-0.147$ & 0.01127 & $-83.32$ & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

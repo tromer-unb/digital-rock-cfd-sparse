@@ -1,0 +1,27 @@
+R3H_L2_pad0.1_tol0.25_band0.02 p2 n_dof 500056 kD_flux 17.6006 t_lu 4s
+R3H_L2_pad0.1_tol0.25_band0.04 p2 n_dof 489797 kD_flux 18.6321 t_lu 4s
+R3H_L2_pad0.1_tol0.25_band0.06 p2 n_dof 473477 kD_flux 18.8416 t_lu 4s
+R3H_L2_pad0.1_tol0.25_band0.07 p2 n_dof 468455 kD_flux 18.5632 t_lu 4s
+R3H_L2_pad0.1_tol0.25_band0.09 p2 n_dof 454680 kD_flux 32.3886 t_lu 4s
+R3H_L2_pad0.1_tol0.25_band0.1 p2 n_dof 447030 kD_flux 32.3906 t_lu 3s
+R3H_L2_pad0.1_tol0.25_band0.12 p2 n_dof 433444 kD_flux 31.1917 t_lu 3s
+R3H_L2_pad0.1_tol0.25_band0.14 p2 n_dof 419954 kD_flux 29.6827 t_lu 3s
+R3H_L2_pad0.1_tol0.25_band0.16 p2 n_dof 409166 kD_flux 28.5375 t_lu 3s
+R2V_L2_pad0.1_tol0.25_band0.02 not percolating (empty selection)
+R2V_L2_pad0.1_tol0.25_band0.04 not percolating (empty selection)
+R2V_L2_pad0.1_tol0.25_band0.06 p2 n_dof 475861 kD_flux 36.4901 t_lu 2s
+R2V_L2_pad0.1_tol0.25_band0.07 p2 n_dof 464681 kD_flux 53.1840 t_lu 2s
+R2V_L2_pad0.1_tol0.25_band0.09 p2 n_dof 447215 kD_flux 63.2049 t_lu 3s
+R2V_L2_pad0.1_tol0.25_band0.1 p2 n_dof 435239 kD_flux 75.1439 t_lu 2s
+R2V_L2_pad0.1_tol0.25_band0.12 p2 n_dof 405018 kD_flux 76.1667 t_lu 2s
+R2V_L2_pad0.1_tol0.25_band0.14 p2 n_dof 386864 kD_flux 73.1807 t_lu 2s
+R2V_L2_pad0.1_tol0.25_band0.16 p2 n_dof 370125 kD_flux 70.1829 t_lu 2s
+R3V_L2_pad0.1_tol0.25_band0.02 p2 n_dof 454497 kD_flux 28869.0875 t_lu 4s
+R3V_L2_pad0.1_tol0.25_band0.04 p2 n_dof 435156 kD_flux 28212.8463 t_lu 4s
+R3V_L2_pad0.1_tol0.25_band0.06 p2 n_dof 417832 kD_flux 27748.0106 t_lu 4s
+R3V_L2_pad0.1_tol0.25_band0.07 p2 n_dof 409086 kD_flux 27335.2443 t_lu 3s
+R3V_L2_pad0.1_tol0.25_band0.09 p2 n_dof 392113 kD_flux 26544.5614 t_lu 3s
+R3V_L2_pad0.1_tol0.25_band0.1 p2 n_dof 383598 kD_flux 26183.2111 t_lu 3s
+R3V_L2_pad0.1_tol0.25_band0.12 p2 n_dof 364828 kD_flux 27195.9865 t_lu 3s
+R3V_L2_pad0.1_tol0.25_band0.14 p2 n_dof 348264 kD_flux 26406.6290 t_lu 3s
+R3V_L2_pad0.1_tol0.25_band0.16 p2 n_dof 318669 kD_flux 25870.8471 t_lu 2s

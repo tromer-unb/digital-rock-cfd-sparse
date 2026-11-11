@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use PercoFlow, please cite it with the metadata below."
+title: "PercoFlow: percolation-aware flow solver for the permeability of two-dimensional porous images and meshes"
+type: software
+version: 1.0.0
+license: MIT
+date-released: 2026-11-06
+repository-code: "https://github.com/ribeirojr-gh/PercoFlow"
+authors:
+  - family-names: Tromer
+    given-names: Raphael M.
+    affiliation: "Institute of Physics, University of Brasília"
+  - family-names: Silva
+    given-names: Alysson Martins Almeida
+    affiliation: "Department of Mechanical Engineering and LMCNano, University of Brasília"
+  - family-names: Barbosa
+    given-names: Paola Ferreira
+    affiliation: "Institute of Geosciences, University of Brasília"
+  - family-names: Santos
+    given-names: Roberto Ventura
+    affiliation: "Institute of Geosciences, University of Brasília"
+  - family-names: Ribeiro Junior
+    given-names: Luiz Antonio
+    affiliation: "Department of Physics, NTNU, and LCCMat, Institute of Physics, University of Brasília"
+    email: luiz.a.ribeiro@ntnu.no
+keywords:
+  - porous media
+  - permeability
+  - Stokes flow
+  - finite elements
+  - percolation
+  - digital rock
+  - OpenFOAM

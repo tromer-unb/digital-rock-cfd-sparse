@@ -1,0 +1,265 @@
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 10%] Meshing curve 2 (Line)
+Info    : [ 10%] Meshing curve 3 (Line)
+Info    : [ 10%] Meshing curve 4 (Line)
+Info    : [ 10%] Meshing curve 5 (Line)
+Info    : [ 20%] Meshing curve 6 (Line)
+Info    : [ 20%] Meshing curve 7 (Line)
+Info    : [ 20%] Meshing curve 8 (Line)
+Info    : [ 20%] Meshing curve 9 (Line)
+Info    : [ 30%] Meshing curve 10 (Line)
+Info    : [ 30%] Meshing curve 11 (Line)
+Info    : [ 30%] Meshing curve 12 (Line)
+Info    : [ 30%] Meshing curve 13 (Line)
+Info    : [ 40%] Meshing curve 14 (Line)
+Info    : [ 40%] Meshing curve 15 (Line)
+Info    : [ 40%] Meshing curve 16 (Line)
+Info    : [ 40%] Meshing curve 17 (Line)
+Info    : [ 50%] Meshing curve 18 (Line)
+Info    : [ 50%] Meshing curve 19 (Line)
+Info    : [ 50%] Meshing curve 20 (Line)
+Info    : [ 50%] Meshing curve 21 (Line)
+Info    : [ 60%] Meshing curve 22 (Line)
+Info    : [ 60%] Meshing curve 23 (Line)
+Info    : [ 60%] Meshing curve 24 (Line)
+Info    : [ 60%] Meshing curve 25 (Line)
+Info    : [ 70%] Meshing curve 26 (Line)
+Info    : [ 70%] Meshing curve 27 (Line)
+Info    : [ 70%] Meshing curve 28 (Line)
+Info    : [ 70%] Meshing curve 29 (Line)
+Info    : [ 80%] Meshing curve 30 (Line)
+Info    : [ 80%] Meshing curve 31 (Line)
+Info    : [ 80%] Meshing curve 32 (Line)
+Info    : [ 80%] Meshing curve 33 (Line)
+Info    : [ 90%] Meshing curve 34 (Line)
+Info    : [ 90%] Meshing curve 35 (Line)
+Info    : [ 90%] Meshing curve 36 (Line)
+Info    : [ 90%] Meshing curve 37 (Line)
+Info    : [100%] Meshing curve 38 (Line)
+Info    : [100%] Meshing curve 39 (Line)
+Info    : [100%] Meshing curve 40 (Line)
+Info    : [100%] Meshing curve 41 (Line)
+Info    : Done meshing 1D (Wall 0.00147957s, CPU 0.001394s)
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : [ 60%] Meshing surface 2 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0734641s, CPU 0.072562s)
+Info    : 2996 nodes 6029 elements
+Info    : Writing '/tmp/c3_2roeakhw/A/mesh.msh'...
+Info    : Done writing '/tmp/c3_2roeakhw/A/mesh.msh'
+Info    : Writing '/tmp/c3_2roeakhw/A/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/c3_2roeakhw/A/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 10%] Meshing curve 2 (Line)
+Info    : [ 10%] Meshing curve 3 (Line)
+Info    : [ 20%] Meshing curve 4 (Line)
+Info    : [ 20%] Meshing curve 5 (Line)
+Info    : [ 30%] Meshing curve 6 (Line)
+Info    : [ 30%] Meshing curve 7 (Line)
+Info    : [ 30%] Meshing curve 8 (Line)
+Info    : [ 40%] Meshing curve 9 (Line)
+Info    : [ 40%] Meshing curve 10 (Line)
+Info    : [ 50%] Meshing curve 11 (Line)
+Info    : [ 50%] Meshing curve 12 (Line)
+Info    : [ 60%] Meshing curve 13 (Line)
+Info    : [ 60%] Meshing curve 14 (Line)
+Info    : [ 60%] Meshing curve 15 (Line)
+Info    : [ 70%] Meshing curve 16 (Line)
+Info    : [ 70%] Meshing curve 17 (Line)
+Info    : [ 80%] Meshing curve 18 (Line)
+Info    : [ 80%] Meshing curve 19 (Line)
+Info    : [ 80%] Meshing curve 20 (Line)
+Info    : [ 90%] Meshing curve 21 (Line)
+Info    : [ 90%] Meshing curve 22 (Line)
+Info    : [100%] Meshing curve 23 (Line)
+Info    : [100%] Meshing curve 24 (Line)
+Info    : Done meshing 1D (Wall 0.000854237s, CPU 0.000711s)
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : [ 40%] Meshing surface 2 (Plane, Frontal-Delaunay)
+Info    : [ 70%] Meshing surface 3 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0505832s, CPU 0.203586s)
+Info    : 2167 nodes 4352 elements
+Info    : Writing '/tmp/c3_2roeakhw/B/mesh.msh'...
+Info    : Done writing '/tmp/c3_2roeakhw/B/mesh.msh'
+Info    : Writing '/tmp/c3_2roeakhw/B/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/c3_2roeakhw/B/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 10%] Meshing curve 2 (Line)
+Info    : [ 10%] Meshing curve 3 (Line)
+Info    : [ 20%] Meshing curve 4 (Line)
+Info    : [ 20%] Meshing curve 5 (Line)
+Info    : [ 30%] Meshing curve 6 (Line)
+Info    : [ 30%] Meshing curve 7 (Line)
+Info    : [ 30%] Meshing curve 8 (Line)
+Info    : [ 40%] Meshing curve 9 (Line)
+Info    : [ 40%] Meshing curve 10 (Line)
+Info    : [ 50%] Meshing curve 11 (Line)
+Info    : [ 50%] Meshing curve 12 (Line)
+Info    : [ 60%] Meshing curve 13 (Line)
+Info    : [ 60%] Meshing curve 14 (Line)
+Info    : [ 60%] Meshing curve 15 (Line)
+Info    : [ 70%] Meshing curve 16 (Line)
+Info    : [ 70%] Meshing curve 17 (Line)
+Info    : [ 80%] Meshing curve 18 (Line)
+Info    : [ 80%] Meshing curve 19 (Line)
+Info    : [ 80%] Meshing curve 20 (Line)
+Info    : [ 90%] Meshing curve 21 (Line)
+Info    : [ 90%] Meshing curve 22 (Line)
+Info    : [100%] Meshing curve 23 (Line)
+Info    : [100%] Meshing curve 24 (Line)
+Info    : Done meshing 1D (Wall 0.000920892s, CPU 0.003922s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0636055s, CPU 0.252553s)
+Info    : 2561 nodes 5144 elements
+Info    : Writing '/tmp/c3_2roeakhw/C/mesh.msh'...
+Info    : Done writing '/tmp/c3_2roeakhw/C/mesh.msh'
+Info    : Writing '/tmp/c3_2roeakhw/C/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/c3_2roeakhw/C/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 10%] Meshing curve 2 (Line)
+Info    : [ 10%] Meshing curve 3 (Line)
+Info    : [ 20%] Meshing curve 4 (Line)
+Info    : [ 20%] Meshing curve 5 (Line)
+Info    : [ 30%] Meshing curve 6 (Line)
+Info    : [ 30%] Meshing curve 7 (Line)
+Info    : [ 30%] Meshing curve 8 (Line)
+Info    : [ 40%] Meshing curve 9 (Line)
+Info    : [ 40%] Meshing curve 10 (Line)
+Info    : [ 50%] Meshing curve 11 (Line)
+Info    : [ 50%] Meshing curve 12 (Line)
+Info    : [ 60%] Meshing curve 13 (Line)
+Info    : [ 60%] Meshing curve 14 (Line)
+Info    : [ 60%] Meshing curve 15 (Line)
+Info    : [ 70%] Meshing curve 16 (Line)
+Info    : [ 70%] Meshing curve 17 (Line)
+Info    : [ 80%] Meshing curve 18 (Line)
+Info    : [ 80%] Meshing curve 19 (Line)
+Info    : [ 80%] Meshing curve 20 (Line)
+Info    : [ 90%] Meshing curve 21 (Line)
+Info    : [ 90%] Meshing curve 22 (Line)
+Info    : [100%] Meshing curve 23 (Line)
+Info    : [100%] Meshing curve 24 (Line)
+Info    : Done meshing 1D (Wall 0.000897194s, CPU 0.003898s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.063432s, CPU 0.25226s)
+Info    : 2561 nodes 5144 elements
+Info    : Writing '/tmp/c3_2roeakhw/C2/mesh.msh'...
+Info    : Done writing '/tmp/c3_2roeakhw/C2/mesh.msh'
+Info    : Writing '/tmp/c3_2roeakhw/C2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/c3_2roeakhw/C2/geometry.geo_unrolled'
+
+
+
+
+{
+ "A_pressure_unfiltered": {
+  "n_components": 2,
+  "isolated": [
+   {
+    "component": 1,
+    "y_mean": 104.45632856511182,
+    "rel_Kx": 1.6900863847128234e-18
+   }
+  ],
+  "PASS": true
+ },
+ "B_velocity_unfiltered": {
+  "n_components": 3,
+  "dead_ends": [
+   {
+    "component": 2,
+    "y_mean": 17.475142703964124,
+    "rel_y_rhs": 0.10448052345226809,
+    "rel_Ky": 2.002653392758917e-18
+   }
+  ],
+  "minres_info": 0,
+  "minres_rel_residual": 0.10448052945523306,
+  "PASS": true
+ },
+ "C_pressure_filtered": {
+  "n_components": 1,
+  "lu_rel_residual_mini": 3.865644784814335e-15,
+  "p2_residual_lu": 6.2383734236867476e-15,
+  "p2_Q_balance": -6.938228129869853e-15,
+  "kD_face": 43.9545455240652,
+  "kD_channel_expected": 44.296788482835,
+  "PASS": true
+ },
+ "rock_cluster_statistics": {
+  "R1-H": {
+   "n_clusters": 528,
+   "n_percolating": 0,
+   "n_dead_end_inlet": 8,
+   "n_dead_end_outlet": 8,
+   "n_isolated": 512,
+   "area_frac_percolating": 0.0,
+   "area_frac_dead_end": 0.19518823761219178,
+   "area_frac_isolated": 0.8048117623878082,
+   "pore_px": 1324629
+  },
+  "R1-V": {
+   "n_clusters": 492,
+   "n_percolating": 0,
+   "n_dead_end_inlet": 8,
+   "n_dead_end_outlet": 3,
+   "n_isolated": 481,
+   "area_frac_percolating": 0.0,
+   "area_frac_dead_end": 0.24933854775194084,
+   "area_frac_isolated": 0.7506614522480591,
+   "pore_px": 1252169
+  },
+  "R2-H": {
+   "n_clusters": 306,
+   "n_percolating": 0,
+   "n_dead_end_inlet": 5,
+   "n_dead_end_outlet": 2,
+   "n_isolated": 299,
+   "area_frac_percolating": 0.0,
+   "area_frac_dead_end": 0.8489333110177181,
+   "area_frac_isolated": 0.15106668898228195,
+   "pore_px": 3889653
+  },
+  "R2-V": {
+   "n_clusters": 281,
+   "n_percolating": 1,
+   "n_dead_end_inlet": 10,
+   "n_dead_end_outlet": 7,
+   "n_isolated": 263,
+   "area_frac_percolating": 0.5377200904800631,
+   "area_frac_dead_end": 0.08813720191748292,
+   "area_frac_isolated": 0.374142707602454,
+   "pore_px": 3870908
+  },
+  "R3-H": {
+   "n_clusters": 124,
+   "n_percolating": 1,
+   "n_dead_end_inlet": 3,
+   "n_dead_end_outlet": 0,
+   "n_isolated": 120,
+   "area_frac_percolating": 0.9857025318181092,
+   "area_frac_dead_end": 0.0011876269645725952,
+   "area_frac_isolated": 0.013109841217318226,
+   "pore_px": 8510248
+  },
+  "R3-V": {
+   "n_clusters": 162,
+   "n_percolating": 1,
+   "n_dead_end_inlet": 1,
+   "n_dead_end_outlet": 3,
+   "n_isolated": 157,
+   "area_frac_percolating": 0.9780423570812586,
+   "area_frac_dead_end": 0.0038068011078875312,
+   "area_frac_isolated": 0.018150841810853798,
+   "pore_px": 7361036
+  }
+ },
+ "PASS_all": true
+}

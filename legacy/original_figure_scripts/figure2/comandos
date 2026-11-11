@@ -1,0 +1,4 @@
+python3 figure2.py \
+  --results-root ../convergence_mesh_05_extra_fine \
+  --output Figure_2_flow_fields.svg \
+  --rasterize-fields

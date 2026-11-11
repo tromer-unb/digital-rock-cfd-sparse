@@ -1,0 +1,82 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:                                        |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+6
+(
+    frontAndBack
+    {
+        type            empty;
+        physicalType    patch;
+        inGroups        1(empty);
+        nFaces          7200;
+        startFace       7000;
+    }
+    cylinder
+    {
+        type            wall;
+        physicalType    patch;
+        inGroups        1(wall);
+        nFaces          200;
+        startFace       14200;
+    }
+    left_c
+    {
+        type            cyclic;
+        inGroups        1(cyclic);
+        nFaces          50;
+        startFace       14400;
+        matchTolerance  1e-06;
+        transform       translational;
+        neighbourPatch  right_c;
+        separationVector (1 0 0);
+    }
+    right_c
+    {
+        type            cyclic;
+        inGroups        1(cyclic);
+        nFaces          50;
+        startFace       14450;
+        matchTolerance  1e-06;
+        transform       translational;
+        neighbourPatch  left_c;
+        separationVector (-1 0 0);
+    }
+    bottom_c
+    {
+        type            cyclic;
+        inGroups        1(cyclic);
+        nFaces          50;
+        startFace       14500;
+        matchTolerance  1e-06;
+        transform       translational;
+        neighbourPatch  top_c;
+        separationVector (0 1 0);
+    }
+    top_c
+    {
+        type            cyclic;
+        inGroups        1(cyclic);
+        nFaces          50;
+        startFace       14550;
+        matchTolerance  1e-06;
+        transform       translational;
+        neighbourPatch  bottom_c;
+        separationVector (0 -1 0);
+    }
+)
+
+// ************************************************************************* //

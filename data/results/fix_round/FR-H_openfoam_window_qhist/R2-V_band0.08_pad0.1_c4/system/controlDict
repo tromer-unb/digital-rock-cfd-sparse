@@ -1,0 +1,9 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+application simpleFoam; startFrom latestTime; startTime 0; stopAt endTime; endTime 200000; deltaT 1;
+writeControl timeStep; writeInterval 200000; writeFormat ascii; writePrecision 14; runTimeModifiable false;
+functions {
+  Qin { type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); regionType patch; name inlet;
+        operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; log false; }
+  Qout { type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); regionType patch; name outlet;
+         operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; log false; }
+}

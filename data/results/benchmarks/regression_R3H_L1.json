@@ -1,0 +1,11 @@
+{
+ "case": "R3-H",
+ "level": 1,
+ "pad": 0.1,
+ "tol": 0.25,
+ "band": 0.08,
+ "element": "p2",
+ "kD_face": 18.140111106921157,
+ "kD_outer": 18.127717640340325,
+ "source": "fix-round/FR-E1_convergence_tol0.25 (audit run, scripts/fr_reservoir.py)"
+}

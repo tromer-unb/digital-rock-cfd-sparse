@@ -1,0 +1,1545 @@
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000342801s, CPU 0.000237s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00344832s, CPU 0.002049s)
+Info    : 130 nodes 266 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000273249s, CPU 0.000225s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00149707s, CPU 0.001497s)
+Info    : 109 nodes 224 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000282712s, CPU 0.000233s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00180498s, CPU 0.001805s)
+Info    : 130 nodes 266 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_1_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000277155s, CPU 0.000278s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00162642s, CPU 0.001615s)
+Info    : 109 nodes 224 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_1_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 20, "level": 1, "p2": 4.946730514099329e-07, "mini": -0.19805105250656485, "vel_p2": -0.012434331208485805}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000283247s, CPU 0.000284s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00442629s, CPU 0.004413s)
+Info    : 252 nodes 510 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000299074s, CPU 0.0003s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00369641s, CPU 0.003696s)
+Info    : 212 nodes 430 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000298909s, CPU 0.0003s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00442729s, CPU 0.004427s)
+Info    : 252 nodes 510 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_2_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000279994s, CPU 0.00028s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00383282s, CPU 0.003833s)
+Info    : 212 nodes 430 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_2_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 20, "level": 2, "p2": 3.875682779153067e-07, "mini": -0.08065495201608608, "vel_p2": -0.02157046155418696}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000321454s, CPU 0.000322s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0176948s, CPU 0.017695s)
+Info    : 840 nodes 1686 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000306792s, CPU 0.000258s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0147517s, CPU 0.014752s)
+Info    : 705 nodes 1416 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000314838s, CPU 0.000266s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0176475s, CPU 0.017641s)
+Info    : 840 nodes 1686 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_3_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000303236s, CPU 0.000258s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0148833s, CPU 0.014883s)
+Info    : 705 nodes 1416 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_3_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 20, "level": 3, "p2": 1.4959256056101822e-10, "mini": -0.022024741249605184, "vel_p2": -0.022906027978055965}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00153168s, CPU 0.001532s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0651976s, CPU 0.065198s)
+Info    : 2662 nodes 5330 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000376734s, CPU 0.003377s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0545855s, CPU 0.215115s)
+Info    : 2187 nodes 4380 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00154705s, CPU 0.00449s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0654464s, CPU 0.263443s)
+Info    : 2662 nodes 5330 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_4_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000364293s, CPU 0.003366s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0539967s, CPU 0.216s)
+Info    : 2187 nodes 4380 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_4_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 20, "level": 4, "p2": -4.563394107037766e-11, "mini": -0.007579276252826506, "vel_p2": -0.027150588597450676}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00751235s, CPU 0.031514s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.105469s, CPU 0.341019s)
+Info    : 4071 nodes 8148 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0034968s, CPU 0.015498s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0875342s, CPU 0.321343s)
+Info    : 3392 nodes 6790 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00770642s, CPU 0.031708s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.105401s, CPU 0.336857s)
+Info    : 4071 nodes 8148 elements
+Info    : Writing '/tmp/b9_y566n18j/p_20_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_20_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_20_5_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00348157s, CPU 0.015483s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0881984s, CPU 0.323209s)
+Info    : 3392 nodes 6790 elements
+Info    : Writing '/tmp/b9_y566n18j/v_20_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_20_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_20_5_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 20, "level": 5, "p2": -4.1284420326803684e-11, "mini": -0.00626940901495554, "vel_p2": -0.02672368517382928}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000325688s, CPU 0.003327s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00810595s, CPU 0.03211s)
+Info    : 410 nodes 826 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00029545s, CPU 0.003296s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00658493s, CPU 0.024585s)
+Info    : 345 nodes 696 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000296261s, CPU 0.000297s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00804962s, CPU 0.03205s)
+Info    : 410 nodes 826 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_1_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000297647s, CPU 0.000283s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.00676149s, CPU 0.006761s)
+Info    : 345 nodes 696 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_1_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 40, "level": 1, "p2": 8.298324249977895e-10, "mini": -0.04964579842798578, "vel_p2": -0.02476432866639744}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000332213s, CPU 0.000333s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0182695s, CPU 0.018269s)
+Info    : 841 nodes 1688 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000308156s, CPU 0.000293s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0148609s, CPU 0.01486s)
+Info    : 702 nodes 1410 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000312528s, CPU 0.000297s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0184497s, CPU 0.018429s)
+Info    : 841 nodes 1688 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_2_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000320116s, CPU 0.000305s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0149874s, CPU 0.014987s)
+Info    : 702 nodes 1410 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_2_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 40, "level": 2, "p2": -2.489297656893541e-11, "mini": -0.022427616193185562, "vel_p2": -0.02804347697725651}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00160769s, CPU 0.001608s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.066901s, CPU 0.066883s)
+Info    : 2709 nodes 5424 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000376204s, CPU 0.000358s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0553514s, CPU 0.223355s)
+Info    : 2254 nodes 4514 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00160303s, CPU 0.007604s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0680433s, CPU 0.272048s)
+Info    : 2709 nodes 5424 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_3_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000376109s, CPU 0.000359s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0556776s, CPU 0.223673s)
+Info    : 2254 nodes 4514 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_3_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 40, "level": 3, "p2": -1.4590328945018882e-11, "mini": -0.007201564345689748, "vel_p2": -0.03623107098961742}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0271509s, CPU 0.108145s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.165687s, CPU 0.341061s)
+Info    : 6322 nodes 12650 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0222241s, CPU 0.088221s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.142319s, CPU 0.311477s)
+Info    : 5443 nodes 10892 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0277175s, CPU 0.111719s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.166774s, CPU 0.335954s)
+Info    : 6322 nodes 12650 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_4_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0227295s, CPU 0.091731s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.141805s, CPU 0.304622s)
+Info    : 5443 nodes 10892 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_4_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 40, "level": 4, "p2": -1.3305800905527576e-11, "mini": -0.008872180405203656, "vel_p2": -0.03813068977143086}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0511078s, CPU 0.204092s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.232911s, CPU 0.336497s)
+Info    : 8529 nodes 17064 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0303034s, CPU 0.123306s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.197454s, CPU 0.330912s)
+Info    : 7400 nodes 14806 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0523314s, CPU 0.208362s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.2327s, CPU 0.321899s)
+Info    : 8529 nodes 17064 elements
+Info    : Writing '/tmp/b9_y566n18j/p_40_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_40_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_40_5_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0311877s, CPU 0.122185s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.197728s, CPU 0.331571s)
+Info    : 7400 nodes 14806 elements
+Info    : Writing '/tmp/b9_y566n18j/v_40_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_40_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_40_5_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 40, "level": 5, "p2": -1.4681922344550458e-11, "mini": -0.012443124972354669, "vel_p2": -0.039316475656669625}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000313913s, CPU 0.003315s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0163307s, CPU 0.064331s)
+Info    : 705 nodes 1416 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000343048s, CPU 0.00033s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.014209s, CPU 0.05921s)
+Info    : 592 nodes 1190 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000330353s, CPU 0.000318s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0166111s, CPU 0.016611s)
+Info    : 705 nodes 1416 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_1_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000303589s, CPU 0.000304s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0136729s, CPU 0.013673s)
+Info    : 592 nodes 1190 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_1_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 80, "level": 1, "p2": 2.306632396198438e-08, "mini": -0.012592419101296937, "vel_p2": -0.07555844161825809}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000312808s, CPU 0.000301s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0312166s, CPU 0.031198s)
+Info    : 1289 nodes 2584 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000314481s, CPU 0.000303s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.025851s, CPU 0.103852s)
+Info    : 1072 nodes 2150 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000322567s, CPU 0.000311s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0314618s, CPU 0.031445s)
+Info    : 1289 nodes 2584 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_2_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000335294s, CPU 0.000323s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0257701s, CPU 0.02577s)
+Info    : 1072 nodes 2150 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_2_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 80, "level": 2, "p2": 2.175082913780102e-08, "mini": -0.008525113137619056, "vel_p2": -0.08099517133613521}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00156076s, CPU 0.001562s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0857761s, CPU 0.085575s)
+Info    : 3343 nodes 6692 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000388849s, CPU 0.00339s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0727696s, CPU 0.29176s)
+Info    : 2833 nodes 5672 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00168254s, CPU 0.004657s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0874862s, CPU 0.339152s)
+Info    : 3343 nodes 6692 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_3_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000393033s, CPU 0.000379s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0733813s, CPU 0.295378s)
+Info    : 2833 nodes 5672 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_3_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 80, "level": 3, "p2": 2.196116066777165e-08, "mini": -0.00895492312873869, "vel_p2": -0.09052599672120587}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.027103s, CPU 0.108095s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.184907s, CPU 0.355593s)
+Info    : 6851 nodes 13708 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0224307s, CPU 0.088417s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.156229s, CPU 0.320905s)
+Info    : 5833 nodes 11672 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.027233s, CPU 0.108228s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.184913s, CPU 0.355405s)
+Info    : 6851 nodes 13708 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_4_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0222102s, CPU 0.088205s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.156695s, CPU 0.324953s)
+Info    : 5833 nodes 11672 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_4_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 80, "level": 4, "p2": 2.364740714355662e-08, "mini": -0.011839388176462906, "vel_p2": -0.09380916819545781}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0517206s, CPU 0.207364s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.257967s, CPU 0.358226s)
+Info    : 9259 nodes 18524 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0304944s, CPU 0.12048s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.224088s, CPU 0.355117s)
+Info    : 7964 nodes 15934 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0509397s, CPU 0.203939s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.257677s, CPU 0.361193s)
+Info    : 9259 nodes 18524 elements
+Info    : Writing '/tmp/b9_y566n18j/p_80_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_80_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_80_5_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0303389s, CPU 0.12032s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.224237s, CPU 0.35672s)
+Info    : 7964 nodes 15934 elements
+Info    : Writing '/tmp/b9_y566n18j/v_80_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_80_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_80_5_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 80, "level": 5, "p2": 2.1963352470066866e-08, "mini": -0.008379412071709336, "vel_p2": -0.09302970745770678}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000381272s, CPU 0.000368s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0487114s, CPU 0.195706s)
+Info    : 1934 nodes 3874 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000365718s, CPU 0.000353s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0401766s, CPU 0.163179s)
+Info    : 1607 nodes 3220 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_1_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_1_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_1_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_1_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00037649s, CPU 0.003378s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0486464s, CPU 0.192641s)
+Info    : 1934 nodes 3874 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_1_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000340014s, CPU 0.000329s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0402457s, CPU 0.16324s)
+Info    : 1607 nodes 3220 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_1_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_1_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_1_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_1_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 160, "level": 1, "p2": 5.911371170341795e-09, "mini": -0.008393823806649103, "vel_p2": -0.09538418146588745}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00179448s, CPU 0.007795s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0820778s, CPU 0.300622s)
+Info    : 3130 nodes 6266 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.000418477s, CPU 0.000405s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.068486s, CPU 0.27549s)
+Info    : 2650 nodes 5306 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_2_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_2_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_2_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_2_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00175642s, CPU 0.007758s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.0817635s, CPU 0.327643s)
+Info    : 3130 nodes 6266 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_2_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.00694708s, CPU 0.021537s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.068019s, CPU 0.27201s)
+Info    : 2650 nodes 5306 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_2_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_2_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_2_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_2_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 160, "level": 2, "p2": 5.429481531038505e-09, "mini": -0.01122138664679806, "vel_p2": -0.10146169405406769}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0274958s, CPU 0.111473s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.1861s, CPU 0.354823s)
+Info    : 6829 nodes 13664 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0228158s, CPU 0.088783s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.156967s, CPU 0.314405s)
+Info    : 5834 nodes 11674 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_3_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_3_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_3_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_3_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0273664s, CPU 0.11136s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.185672s, CPU 0.347815s)
+Info    : 6829 nodes 13664 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_3_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0226774s, CPU 0.091679s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.157122s, CPU 0.318212s)
+Info    : 5834 nodes 11674 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_3_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_3_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_3_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_3_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 160, "level": 3, "p2": 5.8860247786896025e-09, "mini": -0.011732062331801574, "vel_p2": -0.11048556944962717}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.10469s, CPU 0.357393s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.364446s, CPU 0.364418s)
+Info    : 12920 nodes 25846 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.065635s, CPU 0.263628s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.323866s, CPU 0.329899s)
+Info    : 11460 nodes 22926 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_4_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_4_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_4_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_4_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.104095s, CPU 0.348162s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.365505s, CPU 0.36549s)
+Info    : 12920 nodes 25846 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_4_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.0661618s, CPU 0.264154s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.322906s, CPU 0.33291s)
+Info    : 11460 nodes 22926 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_4_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_4_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_4_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_4_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 160, "level": 4, "p2": 5.97028160242985e-09, "mini": -0.004172834739592957, "vel_p2": -0.11364651498672729}
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.132244s, CPU 0.379431s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.520913s, CPU 0.520845s)
+Info    : 16210 nodes 32426 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.122714s, CPU 0.312664s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.425387s, CPU 0.425333s)
+Info    : 14920 nodes 29846 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_5_p2/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_5_p2/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_5_p2/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_5_p2/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.135761s, CPU 0.37326s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.522175s, CPU 0.522129s)
+Info    : 16210 nodes 32426 elements
+Info    : Writing '/tmp/b9_y566n18j/p_160_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/p_160_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/p_160_5_mini/geometry.geo_unrolled'
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Line)
+Info    : [ 20%] Meshing curve 2 (Line)
+Info    : [ 30%] Meshing curve 3 (Line)
+Info    : [ 40%] Meshing curve 4 (Line)
+Info    : [ 60%] Meshing curve 5 (Line)
+Info    : [ 70%] Meshing curve 6 (Line)
+Info    : [ 80%] Meshing curve 7 (Line)
+Info    : [ 90%] Meshing curve 8 (Line)
+Info    : Done meshing 1D (Wall 0.122813s, CPU 0.309714s)
+Info    : Meshing 2D...
+Info    : Meshing surface 1 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 0.428384s, CPU 0.427376s)
+Info    : 14920 nodes 29846 elements
+Info    : Writing '/tmp/b9_y566n18j/v_160_5_mini/mesh.msh'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_5_mini/mesh.msh'
+Info    : Writing '/tmp/b9_y566n18j/v_160_5_mini/geometry.geo_unrolled'...
+Info    : Done writing '/tmp/b9_y566n18j/v_160_5_mini/geometry.geo_unrolled'
+
+
+
+
+{"h": 160, "level": 5, "p2": 6.0630713782927614e-09, "mini": -0.0028189953048650684, "vel_p2": -0.11323425749390781}
+{
+ "declared": "|kD_face(P2/P1)/kD_exact - 1| < 1e-6 at every level and width",
+ "worst_p2": 4.946730514099329e-07,
+ "PASS": true
+}

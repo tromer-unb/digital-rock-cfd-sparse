@@ -1,0 +1,145 @@
+{
+ "input": "examples/synthetic_rock.png",
+ "mask": {
+  "shape": [
+   200,
+   240
+  ],
+  "pore_pixels": 27783,
+  "porosity": 0.5788125
+ },
+ "crop": {
+  "band_px": 16,
+  "window_shape": [
+   168,
+   240
+  ]
+ },
+ "percolation": {
+  "clusters_total": 5,
+  "clusters_percolating": 1,
+  "clusters_dead_end": 2,
+  "clusters_isolated": 2,
+  "area_percolating_px": 21724,
+  "area_dead_end_px": 55,
+  "area_isolated_px": 780,
+  "pore_area_window_px": 22559,
+  "connected_fraction": 0.9629859479586861,
+  "percolates": true
+ },
+ "direction": "tb",
+ "units": "px (lengths), px^2 (permeability)",
+ "critical_throat_width_px": 15.61279296875,
+ "status": "ok",
+ "permeability": {
+  "k_D": 6.24304254505331,
+  "Q": 8.574600312385499,
+  "dP": 0.9614254869087385,
+  "Pbar_in": 0.990577451984451,
+  "Pbar_out": 0.029151965075712518,
+  "L_s": 168,
+  "W": 240,
+  "b": 17,
+  "U_darcy": 0.03572750130160625,
+  "k_D_length_weighted": 6.025241062649721,
+  "k_D_outer_faces": 5.991573293492508,
+  "reservoir_pressure_share": 0.04027991956582999,
+  "definition": "k_D = mu Q L_s / (W dP), dP between flux-weighted pressures 1 px inside the reservoirs"
+ },
+ "solver": {
+  "element": "p2",
+  "method": "lu",
+  "inlet": {
+   "length": 240.4142135623731,
+   "flux": -8.574600312385499,
+   "p_mean_length": 1.000025254848465,
+   "p_mean_flux": 1.0007853404640543,
+   "p_mean_nodal": 1.0001465245416328
+  },
+  "n_triangles": 6026,
+  "n_dof": 30490,
+  "n_free": 25510,
+  "residual": 3.969274881555832e-15,
+  "t_assembly_s": 0.11969566345214844,
+  "t_solve_s": 0.19925761222839355,
+  "nnz_reduced": 422682,
+  "Q": 8.574600312385499,
+  "mass_imbalance": 6.836444098220589e-15,
+  "outlet": {
+   "length": 240.4142135623731,
+   "flux": 8.574600312385558,
+   "p_mean_length": -3.9732298776997824e-05,
+   "p_mean_flux": -0.0009916427515067974,
+   "p_mean_nodal": -0.00020132082305919676
+  },
+  "dissipation": 8.574600312385558,
+  "energy_identity_relerr": 6.836444098220589e-15
+ },
+ "mesh": {
+  "mesh_path": "../_refruns/examples/rock_tb/mesh/mesh.msh",
+  "contours": 16,
+  "surfaces": 1,
+  "nodes": 3682,
+  "inlet_curves": 3,
+  "outlet_curves": 3,
+  "wall_curves": 970,
+  "sizes": {
+   "h_min": 4.0,
+   "h_max": 30.0,
+   "d_min": 4.0,
+   "d_max": 60.0
+  }
+ },
+ "timings": {
+  "mesh_s": 0.6454031467437744,
+  "assembly_s": 0.11969566345214844,
+  "solve_s": 0.19925761222839355
+ },
+ "descriptors": {
+  "area_fluid": 21728.17458825071,
+  "porosity_domain": 0.5388932189546307,
+  "wall_length": 2387.5444081201686,
+  "hydraulic_diameter": 36.40254734421191,
+  "speed_max": 0.43948030966408663,
+  "velocity_amplification": 12.300896890439084,
+  "partition": {
+   "active": 0.6479250910269322,
+   "dead": 0.1980514382106216,
+   "intermediate": 0.1540234707624462,
+   "alpha": 0.01,
+   "beta": 0.001
+  },
+  "A50": 0.11939870272086768,
+  "A90": 0.3136080024821748,
+  "kD_times_Dh": 227.26265181823234,
+  "n_triangles_sample": 4789
+ },
+ "openfoam_crosscheck": {
+  "status": "completed",
+  "openfoam": {
+   "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+   "version": "v1912"
+  },
+  "scope": "full domain",
+  "face_connected_pixels": 21716,
+  "summary": {
+   "n": 1,
+   "median_abs_rel_diff": 0.004599158865264075,
+   "mean_rel_diff": 0.004599158865264075,
+   "min_rel_diff": 0.004599158865264075,
+   "max_rel_diff": 0.004599158865264075,
+   "all_fv_converged": true,
+   "all_mesh_ok": true
+  },
+  "interpretation": "FV keeps the pixel staircase, FE a smooth contour; the difference measures the wall representation",
+  "pairs": [
+   {
+    "tag": "window_r0_c0",
+    "k_fe_contour": 6.240408857346279,
+    "k_fv_pixel": 6.269109489065415,
+    "rel_diff_fv_vs_fe": 0.004599158865264075,
+    "flag": "ok"
+   }
+  ]
+ }
+}

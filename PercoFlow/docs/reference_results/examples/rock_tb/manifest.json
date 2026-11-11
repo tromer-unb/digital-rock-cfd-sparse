@@ -1,0 +1,114 @@
+{
+ "kind": "image",
+ "status": "completed",
+ "started_utc": "2026-11-06T22:08:40.759771+00:00",
+ "command": ".venv/bin/percoflow image examples/synthetic_rock.png -o ../_refruns/examples/rock_tb --direction tb --level 3 --config docs/reference_results/reference_run.yaml",
+ "config": {
+  "image": {
+   "pore_rule": "green",
+   "green_min": 80,
+   "green_delta": 30,
+   "threshold": null,
+   "invert": false,
+   "min_object_size": 20
+  },
+  "domain": {
+   "direction": "tb",
+   "band_fraction": 0.08,
+   "band_px": null,
+   "keep_percolating": "all",
+   "reservoir_fraction": 0.1
+  },
+  "mesh": {
+   "level": 3,
+   "h_min": null,
+   "h_max": null,
+   "d_min": null,
+   "d_max": null,
+   "contour_tolerance": 0.25,
+   "min_contour_points": 8,
+   "min_contour_area": 20.0,
+   "algorithm": 6,
+   "smoothing": 5,
+   "face_tolerance": 0.75
+  },
+  "solver": {
+   "element": "p2",
+   "method": "lu",
+   "inlet": "pressure",
+   "p_in": 1.0,
+   "u0": 0.0001,
+   "mu": 1.0,
+   "rho": 1.0,
+   "minres_tol": 1e-07,
+   "minres_maxiter": 20000,
+   "accept_residual": 0.001,
+   "max_dofs": 6000000
+  },
+  "descriptors": {
+   "alpha": 0.01,
+   "beta": 0.001
+  },
+  "openfoam": {
+   "enabled": true,
+   "env_script": null,
+   "nu": 10000.0,
+   "max_cells": 250000,
+   "subwindow": 512,
+   "max_subwindows": 2,
+   "nprocs": 1,
+   "max_iterations": 200000,
+   "keep_cases": false
+  },
+  "output": {
+   "save_mesh": false,
+   "save_fields": false,
+   "save_vtk": false,
+   "figures": true
+  }
+ },
+ "environment": {
+  "percoflow": "1.0.0",
+  "git": {
+   "commit": "406eeefe13015d29c7890ada20401e94a996ec15",
+   "dirty": false
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "host": "gpu-server",
+  "libraries": {
+   "numpy": "2.5.4",
+   "scipy": "1.18.1",
+   "skfem": "12.0.2",
+   "skimage": "0.26.0",
+   "gmsh": "4.15.2",
+   "meshio": "5.3.5",
+   "matplotlib": "3.11.2",
+   "PIL": "13.0.0",
+   "yaml": "6.0.3"
+  },
+  "threads": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1"
+  }
+ },
+ "inputs": {
+  "examples/synthetic_rock.png": "9f8f33dbad6ab2c481395eb4e976450ee434423356ec5cc083301f06f4ee5bf2"
+ },
+ "notes": [],
+ "openfoam": {
+  "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+  "version": "v1912"
+ },
+ "finished_utc": "2026-11-06T22:09:39.713197+00:00",
+ "wall_time_s": 58.92247819900513,
+ "outputs": {
+  "fields.png": "a208b9f82dac451d3bba0630ec0df146d7f70f5606f5f1543dedc89e88e1755b",
+  "mask_selected.png": "1c8f17a2a6872b4dc57fac50acccc860bc5a3fd20acb69fa8783d46a23024bfd",
+  "openfoam/openfoam_crosscheck.json": "d6d487d62e0600d03fc22ca4e09bf07c43b3e45b8836c9d770385845055ce475",
+  "openfoam/window_r0_c0_fe/geometry.geo_unrolled": "5f165cb5437506852e1ad5ee62771ccc88a29eb97a4f6c04522302f967022d57",
+  "openfoam/window_r0_c0_fe/mesh.msh": "d08e68c77e013a7093269ef5a0a2caca304ddbbaec1d2225ea17c0095cac5c54",
+  "result.json": "068f60c78765cf23325c01194576c6901c3669de7883232203184cd972ff2169"
+ }
+}

@@ -1,0 +1,18 @@
+# environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# run outputs (results belong in run directories outside the repository)
+runs/
+*.vtu
+fields.npz
+
+# OpenFOAM case leftovers
+processor*/
+log.*

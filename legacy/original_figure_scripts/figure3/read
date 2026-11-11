@@ -1,0 +1,4 @@
+python3 figure3.py \
+  --results-root ../convergence_mesh_05_extra_fine \
+  --output Figure_3_flow_partition.svg \
+  --fully-vectorial

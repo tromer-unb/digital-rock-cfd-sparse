@@ -1,0 +1,47 @@
+R3H_L2_pad0.1_tol0.5_band0.08 p2 n_dof 403942 kD_flux 18.3083 t_lu 3s
+R3H_L2_pad0.1_tol1_band0.08 p2 n_dof 368556 kD_flux 18.7993 t_lu 3s
+R3H_L2_pad0.1_tol2_band0.08 p2 n_dof 348927 kD_flux 19.2320 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.04 p2 n_dof 378533 kD_flux 19.2815 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.12 p2 n_dof 337713 kD_flux 32.0012 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.16 p2 n_dof 322316 kD_flux 29.2358 t_lu 3s
+R2V_L2_pad0.1_tol0.5_band0.08 p2 n_dof 379344 kD_flux 59.8699 t_lu 2s
+R2V_L2_pad0.1_tol1_band0.08 p2 n_dof 335306 kD_flux 61.4157 t_lu 2s
+R2V_L2_pad0.1_tol2_band0.08 p2 n_dof 316974 kD_flux 63.0082 t_lu 2s
+Traceback (most recent call last):
+  File "/home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/scripts/fr_reservoir.py", line 133, in <module>
+    main()
+  File "/home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/scripts/fr_reservoir.py", line 111, in main
+    mi = m.create_gmsh_mesh(padded, direction, mdir, cfg)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/convergencia/digital_rock_cfd_pipeline_sparse.py", line 964, in create_gmsh_mesh
+    raise RuntimeError("Nenhum contorno válido foi extraído.")
+RuntimeError: Nenhum contorno válido foi extraído.
+R2V_L2_pad0.1_tol1.5_band0.12 p2 n_dof 291906 kD_flux 77.0909 t_lu 2s
+R2V_L2_pad0.1_tol1.5_band0.16 p2 n_dof 268151 kD_flux 71.0629 t_lu 2s
+R3V_L2_pad0.1_tol0.5_band0.08 p2 n_dof 343725 kD_flux 26946.5631 t_lu 3s
+R3V_L2_pad0.1_tol1_band0.08 p2 n_dof 310528 kD_flux 26956.1660 t_lu 3s
+R3V_L2_pad0.1_tol2_band0.08 p2 n_dof 291444 kD_flux 34386.8060 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.04 p2 n_dof 326447 kD_flux 30983.8540 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.12 p2 n_dof 274803 kD_flux 30333.2050 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.16 p2 n_dof 244385 kD_flux 28982.5648 t_lu 2s
+R3H_L2_pad0.1_tol0.25_band0.08 p2 n_dof 459151 kD_flux 18.1942 t_lu 3s
+R3H_L2_pad0.1_tol0.1_band0.08 p2 n_dof 459323 kD_flux 18.1942 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.02 p2 n_dof 384888 kD_flux 18.7049 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.04 p2 n_dof 378533 kD_flux 19.2815 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.06 p2 n_dof 368019 kD_flux 19.3603 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.1 p2 n_dof 348397 kD_flux 33.2219 t_lu 3s
+R3H_L2_pad0.1_tol1.5_band0.14 p2 n_dof 329100 kD_flux 30.4386 t_lu 3s
+R2V_L2_pad0.1_tol0.25_band0.08 p2 n_dof 454236 kD_flux 59.6419 t_lu 2s
+R2V_L2_pad0.1_tol0.1_band0.08 p2 n_dof 454472 kD_flux 59.6403 t_lu 2s
+R2V_L2_pad0.1_tol1.5_band0.02 not percolating (empty selection)
+R2V_L2_pad0.1_tol1.5_band0.04 not percolating (empty selection)
+R2V_L2_pad0.1_tol1.5_band0.06 p2 n_dof 335487 kD_flux 38.0505 t_lu 2s
+R2V_L2_pad0.1_tol1.5_band0.1 p2 n_dof 313548 kD_flux 76.4978 t_lu 2s
+R2V_L2_pad0.1_tol1.5_band0.14 p2 n_dof 281714 kD_flux 73.9559 t_lu 2s
+R3V_L2_pad0.1_tol0.25_band0.08 p2 n_dof 397953 kD_flux 26932.3257 t_lu 3s
+R3V_L2_pad0.1_tol0.1_band0.08 p2 n_dof 397809 kD_flux 26931.9304 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.02 p2 n_dof 339289 kD_flux 31670.5093 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.04 p2 n_dof 326447 kD_flux 30983.8540 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.06 p2 n_dof 312664 kD_flux 30580.2270 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.1 p2 n_dof 289369 kD_flux 28955.4138 t_lu 3s
+R3V_L2_pad0.1_tol1.5_band0.14 p2 n_dof 263353 kD_flux 29513.8209 t_lu 2s

@@ -1,0 +1,111 @@
+{
+ "kind": "mesh",
+ "status": "completed",
+ "started_utc": "2026-11-06T22:09:40.938389+00:00",
+ "command": ".venv/bin/percoflow mesh examples/obstacles.msh -o ../_refruns/examples/obstacles --config docs/reference_results/reference_run.yaml",
+ "config": {
+  "image": {
+   "pore_rule": "green",
+   "green_min": 80,
+   "green_delta": 30,
+   "threshold": null,
+   "invert": false,
+   "min_object_size": 20
+  },
+  "domain": {
+   "direction": "lr",
+   "band_fraction": 0.08,
+   "band_px": null,
+   "keep_percolating": "all",
+   "reservoir_fraction": 0.1
+  },
+  "mesh": {
+   "level": 2,
+   "h_min": null,
+   "h_max": null,
+   "d_min": null,
+   "d_max": null,
+   "contour_tolerance": 0.25,
+   "min_contour_points": 8,
+   "min_contour_area": 20.0,
+   "algorithm": 6,
+   "smoothing": 5,
+   "face_tolerance": 0.75
+  },
+  "solver": {
+   "element": "p2",
+   "method": "lu",
+   "inlet": "pressure",
+   "p_in": 1.0,
+   "u0": 0.0001,
+   "mu": 1.0,
+   "rho": 1.0,
+   "minres_tol": 1e-07,
+   "minres_maxiter": 20000,
+   "accept_residual": 0.001,
+   "max_dofs": 6000000
+  },
+  "descriptors": {
+   "alpha": 0.01,
+   "beta": 0.001
+  },
+  "openfoam": {
+   "enabled": true,
+   "env_script": null,
+   "nu": 10000.0,
+   "max_cells": 250000,
+   "subwindow": 512,
+   "max_subwindows": 2,
+   "nprocs": 1,
+   "max_iterations": 200000,
+   "keep_cases": false
+  },
+  "output": {
+   "save_mesh": false,
+   "save_fields": false,
+   "save_vtk": false,
+   "figures": true
+  }
+ },
+ "environment": {
+  "percoflow": "1.0.0",
+  "git": {
+   "commit": "406eeefe13015d29c7890ada20401e94a996ec15",
+   "dirty": false
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "host": "gpu-server",
+  "libraries": {
+   "numpy": "2.5.4",
+   "scipy": "1.18.1",
+   "skfem": "12.0.2",
+   "skimage": "0.26.0",
+   "gmsh": "4.15.2",
+   "meshio": "5.3.5",
+   "matplotlib": "3.11.2",
+   "PIL": "13.0.0",
+   "yaml": "6.0.3"
+  },
+  "threads": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": "1"
+  }
+ },
+ "inputs": {
+  "examples/obstacles.msh": "12a31347e2d9f6a7ab7aadc137ce86207cdedf4a5c806e7e36b7ff8888271432"
+ },
+ "notes": [],
+ "openfoam": {
+  "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+  "version": "v1912"
+ },
+ "finished_utc": "2026-11-06T22:09:45.341680+00:00",
+ "wall_time_s": 4.345906019210815,
+ "outputs": {
+  "fields.png": "a17c58191fe57758e26e918527ca4e370ad541a75dae4601592b7f261e924743",
+  "openfoam/openfoam_crosscheck.json": "97a00c4121091480d9ccb3dc8facd88c51bdb1769a132094506349a16d305257",
+  "result.json": "38abb666c981b4d43c9a518b4f25db1f331b81d1b815862d023158cdc21a1c43"
+ }
+}

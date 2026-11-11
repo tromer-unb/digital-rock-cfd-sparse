@@ -1,0 +1,98 @@
+{
+ "input": "examples/obstacles.msh",
+ "status": "ok",
+ "mesh": {
+  "n_vertices": 2878,
+  "n_triangles": 5409,
+  "area": 3.57860599979825,
+  "bbox": [
+   0.0,
+   4.0,
+   0.0,
+   1.0
+  ],
+  "boundary_facets": {
+   "INLET": 25,
+   "OUTLET": 25,
+   "WALLS": 301
+  }
+ },
+ "permeability": {
+  "k_D": 0.011171228780279464,
+  "Q": 0.002792641501519497,
+  "dP": 0.9999406713250162,
+  "L_s": 4.0,
+  "W": 1.0,
+  "U_darcy": 0.002792641501519497,
+  "definition": "k_D = mu Q L / (W dP), dP between flux-weighted pressures on the INLET and OUTLET curves"
+ },
+ "solver": {
+  "element": "p2",
+  "method": "lu",
+  "inlet": {
+   "length": 1.0,
+   "flux": -0.002792641501519497,
+   "p_mean_length": 1.0000014823720935,
+   "p_mean_flux": 0.9999593551488966,
+   "p_mean_nodal": 1.0000066632541074
+  },
+  "n_triangles": 5409,
+  "n_dof": 25212,
+  "n_free": 24004,
+  "residual": 1.2659019023449419e-14,
+  "t_assembly_s": 0.1737511157989502,
+  "t_solve_s": 0.7023160457611084,
+  "nnz_reduced": 433866,
+  "Q": 0.002792641501519497,
+  "mass_imbalance": -4.7985890221245344e-14,
+  "outlet": {
+   "length": 1.0,
+   "flux": 0.002792641501519363,
+   "p_mean_length": -2.0024775843811867e-06,
+   "p_mean_flux": 1.8683823880363465e-05,
+   "p_mean_nodal": -5.049894411366426e-06
+  },
+  "dissipation": 0.002792641501519531,
+  "energy_identity_relerr": 1.2112943162644456e-14
+ },
+ "direction": "lr",
+ "descriptors": {
+  "area_fluid": 3.57860599979825,
+  "porosity_domain": 0.8946514999495625,
+  "wall_length": 11.952563863121226,
+  "hydraulic_diameter": 1.1976028041447344,
+  "speed_max": 0.010114842311270496,
+  "velocity_amplification": 3.6219623269821546,
+  "partition": {
+   "active": 0.9985700537132497,
+   "dead": 0.0,
+   "intermediate": 0.0014299462867503054,
+   "alpha": 0.01,
+   "beta": 0.001
+  },
+  "A50": 0.29501563677204445,
+  "A90": 0.7142445819041139,
+  "kD_times_Dh": 0.013378694913005048,
+  "n_triangles_sample": 5409
+ },
+ "openfoam_crosscheck": {
+  "status": "completed",
+  "openfoam": {
+   "env_script": "/home/luiz/opt/openfoam-sysroot/env_openfoam.sh",
+   "version": "v1912"
+  },
+  "n_cells": 5409,
+  "k_fv_prisms": 0.011376925758347268,
+  "k_fe": 0.011171228780279464,
+  "rel_diff_fv_vs_fe": 0.01841310227491899,
+  "flux_mismatch_in_out": 2.1343478485474584e-12,
+  "mesh_ok": true,
+  "max_non_orthogonality": 26.209200814488,
+  "converged": true,
+  "converged_by": "simpleFoam residualControl",
+  "p_initial_residual_last": 9.9962426262052e-13,
+  "Ux_initial_residual_last": 4.8219461706255e-11,
+  "Uy_initial_residual_last": 9.7004629436516e-11,
+  "iterations": 420
+ }
+}

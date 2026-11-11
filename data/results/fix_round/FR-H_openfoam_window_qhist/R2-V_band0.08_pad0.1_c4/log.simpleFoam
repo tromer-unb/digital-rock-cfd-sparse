@@ -1,0 +1,153 @@
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+Authorization required, but no authorization protocol specified
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:                                        |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : OPENFOAM=1912 patch=200626
+Arch   : "LSB;label=32;scalar=64"
+Exec   : simpleFoam -parallel
+Date   : Oct 29 2026
+Time   : 18:44:12
+Host   : alienware
+PID    : 1203614
+I/O    : uncollated
+Case   : /home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/PROJETO/QUALITY-CHECK/QC-20261019-v1/fix-round/FR-H_openfoam_window_qhist/R2-V_band0.08_pad0.1_c4
+nProcs : 6
+Hosts  :
+(
+    (alienware 6)
+)
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: convergence criteria
+    field p	 tolerance 1e-08
+    field U	 tolerance 1e-09
+
+Reading field p
+
+Reading field U
+
+Reading/calculating face flux field phi
+
+Selecting incompressible transport model Newtonian
+Selecting turbulence model type laminar
+Selecting laminar stress model Stokes
+No MRF models present
+
+No finite volume options present
+
+Starting time loop
+
+[0] 
+[0] 
+[0] --> FOAM FATAL IO ERROR: 
+[0] error in IOstream "sha1" for operation Foam::Ostream& Foam::operator<<(Ostream&, const word&)
+[0] 
+[0] file: sha1 at line 0.
+[0] 
+[0]     From function virtual bool Foam::IOstream::check(const char*) const
+[0]     in file db/IOstreams/IOstreams/IOstream.C at line 55.
+[0] 
+FOAM parallel run exiting
+[0] 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[1] 
+[1] 
+[1] --> FOAM FATAL IO ERROR: 
+[1] error in IOstream "sha1" for operation Foam::Ostream& Foam::operator<<(Ostream&, const word&)
+[1] 
+[1] file: sha1 at line 0.
+[1] 
+[1]     From function virtual bool Foam::IOstream::check(const char*) const
+[1]     in file db/IOstreams/IOstreams/IOstream.C at line 55.
+[1] 
+FOAM parallel run exiting
+[1] 
+[3] 
+[3] 
+[3] --> FOAM FATAL IO ERROR: 
+[3] error in IOstream "sha1" for operation Foam::Ostream& Foam::operator<<(Ostream&, const word&)
+[3] 
+[3] file: sha1 at line 0.
+[3] 
+[3]     From function virtual bool Foam::IOstream::check(const char*) const
+[3]     in file db/IOstreams/IOstreams/IOstream.C at line 55.
+[3] 
+FOAM parallel run exiting
+[3] 
+[5] 
+[5] 
+[5] --> FOAM FATAL IO ERROR: 
+[5] error in IOstream "sha1" for operation Foam::Ostream& Foam::operator<<(Ostream&, const word&)
+[5] 
+[5] file: sha1 at line 0.
+[5] 
+[5]     From function virtual bool Foam::IOstream::check(const char*) const
+[5]     in file db/IOstreams/IOstreams/IOstream.C at line 55.
+[5] 
+FOAM parallel run exiting
+[5] 
+[2] 
+[2] 
+[2] --> FOAM FATAL IO ERROR: 
+[2] error in IOstream "sha1" for operation Foam::Ostream& Foam::operator<<(Ostream&, const word&)
+[2] 
+[2] file: sha1 at line 0.
+[2] 
+[2]     From function virtual bool Foam::IOstream::check(const char*) const
+[2]     in file db/IOstreams/IOstreams/IOstream.C at line 55.
+[2] 
+FOAM parallel run exiting
+[2] 
+[4] 
+[4] 
+[4] --> FOAM FATAL IO ERROR: 
+[4] error in IOstream "sha1" for operation Foam::Ostream& Foam::operator<<(Ostream&, const word&)
+[4] 
+[4] file: sha1 at line 0.
+[4] 
+[4]     From function virtual bool Foam::IOstream::check(const char*) const
+[4]     in file db/IOstreams/IOstreams/IOstream.C at line 55.
+[4] 
+FOAM parallel run exiting
+[4] 
+[alienware:1203611] 5 more processes have sent help message help-mpi-api.txt / mpi-abort
+[alienware:1203611] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

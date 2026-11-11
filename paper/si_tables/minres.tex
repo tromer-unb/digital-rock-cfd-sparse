@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\centering
+\caption{Screening solver under the pressure-driven definition (Mini elements). Columns give the configuration, the mesh level, the number of free unknowns $N$, the non-zeros per row of the reduced matrix, its CSR storage in MiB, the solve time in seconds and the peak resident memory in GiB of sparse LU, the number of MINRES iterations, the MINRES solve time in seconds and its peak memory in GiB, the true relative residual $\|\mathbf{r}\|/\|\mathbf{f}\|$ of the MINRES solution, and the relative difference between the MINRES and LU permeabilities.}
+\label{tab:minres}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+ & & & & & \multicolumn{2}{c}{LU} & \multicolumn{5}{c}{MINRES} \\
+\cmidrule(lr){6-7}\cmidrule(lr){8-12}
+ & Level & $N$ & nnz$/N$ & CSR & Time & Memory & Iterations & Time & Memory & Residual & $|\Delta k_D|/k_D$ \\
+\midrule
+R3-H & 1 & 222,250 & 11.8 & 31 & 1.1 & 0.82 & 2,936 & 15 & 0.42 & $9.2\times10^{-5}$ & $3.9\times10^{-4}$ \\
+ & 2 & 322,345 & 12.2 & 46 & 2.2 & 1.13 & 3,398 & 28 & 0.57 & $2.7\times10^{-5}$ & $3.0\times10^{-4}$ \\
+ & 3 & 644,719 & 12.6 & 96 & 7.4 & 2.25 & 3,847 & 70 & 0.92 & $2.7\times10^{-5}$ & $2.4\times10^{-4}$ \\
+ & 4 & 1,318,690 & 12.8 & 199 & 32.0 & 5.25 & 3,766 & 175 & 1.79 & $6.3\times10^{-5}$ & $1.4\times10^{-4}$ \\
+ & 5 & 1,809,845 & 12.9 & 274 & 53.0 & 7.24 & 3,983 & 290 & 2.41 & $6.4\times10^{-5}$ & $8.5\times10^{-5}$ \\
+\midrule
+R2-V & 1 & 219,348 & 11.4 & 29 & 0.9 & 0.75 & 3,836 & 17 & 0.42 & $2.1\times10^{-5}$ & $2.5\times10^{-4}$ \\
+ & 2 & 309,744 & 11.9 & 43 & 1.7 & 1.00 & 4,665 & 36 & 0.54 & $2.3\times10^{-5}$ & $2.2\times10^{-4}$ \\
+ & 3 & 603,712 & 12.4 & 88 & 3.6 & 1.98 & 5,560 & 94 & 0.98 & $3.8\times10^{-5}$ & $1.7\times10^{-4}$ \\
+ & 4 & 1,159,770 & 12.7 & 173 & 9.9 & 3.76 & 4,969 & 210 & 1.59 & $4.0\times10^{-5}$ & $1.1\times10^{-4}$ \\
+ & 5 & 1,568,875 & 12.8 & 235 & 14.2 & 5.18 & 5,033 & 299 & 2.11 & $5.6\times10^{-5}$ & $3.4\times10^{-5}$ \\
+\midrule
+R3-V & 1 & 194,638 & 11.8 & 27 & 1.0 & 0.73 & 3,961 & 14 & 0.38 & $3.1\times10^{-4}$ & $3.0\times10^{-5}$ \\
+ & 2 & 277,861 & 12.2 & 40 & 1.8 & 0.99 & 4,394 & 30 & 0.50 & $3.5\times10^{-4}$ & $2.3\times10^{-5}$ \\
+ & 3 & 552,597 & 12.6 & 82 & 6.5 & 1.71 & 4,865 & 73 & 0.91 & $4.9\times10^{-4}$ & $1.2\times10^{-4}$ \\
+ & 4 & 1,175,341 & 12.9 & 177 & 34.1 & 4.90 & 5,408 & 215 & 1.60 & $9.9\times10^{-4}$ & $5.3\times10^{-4}$ \\
+ & 5 & 1,635,659 & 12.9 & 248 & 50.0 & 6.73 & 6,057 & 363 & 2.19 & $1.2\times10^{-3}$ & $1.2\times10^{-3}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
