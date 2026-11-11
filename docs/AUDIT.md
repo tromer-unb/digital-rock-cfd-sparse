@@ -13,6 +13,8 @@ This page explains the rules that make every result of the paper checkable, and 
 4. **Every PercoFlow run is self-describing.** It writes `manifest.json` with the full configuration, the SHA-256 of the
    input and of every output, the package version, the git commit and whether the working tree was modified, the library
    versions, the OpenFOAM version and the times. A disabled cross-check is recorded as such.
+   Runs made from the unpacked Supplementary Data archive (not a git checkout) record `"commit": null`; the archive name
+   carries the commit it was built from (`digital-rock-cfd-sparse-<commit>.zip`).
 5. **No silent defaults.** Every option that can change a number is a field of PercoFlow's `config.RunConfig`; a mistyped
    option is an error.
 6. **Integrity is checkable.** `SHA256SUMS.txt` lists the SHA-256 of every file of the repository; `PercoFlow/SHA256SUMS.txt`
