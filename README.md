@@ -42,7 +42,7 @@ that the discretization error is below 0.03 %, while the definition of the probl
 cropping window, wall representation) changes the permeability by factors up to about two. A didactic summary with the
 equations is in [docs/PAPER_EXPLAINED.md](docs/PAPER_EXPLAINED.md).
 
-## 2. Quick start (10 minutes)
+## 2. Quick start (10 minutes, 17 GB of memory)
 
 ```bash
 git clone https://github.com/tromer-unb/digital-rock-cfd-sparse.git && cd digital-rock-cfd-sparse
@@ -50,10 +50,10 @@ sha256sum -c SHA256SUMS.txt --quiet          # every file intact (no output = OK
 bash tools/setup_environment.sh              # .venv with the exact package versions + PercoFlow
 source .venv/bin/activate
 
-# permeability of one sample of the paper (R2, flow top -> bottom, coarse mesh, ~1 min)
+# permeability of one sample of the paper (R2, flow top -> bottom, coarse mesh, ~30 s)
 percoflow image data/images/patch_y7600_x19000_c0_mask.png -o runs/R2-V --direction tb --level 1 --no-openfoam
 
-# recompute the permeabilities of the paper on mesh levels 1-2 and compare with the stored results (~5 min)
+# recompute the permeabilities of the paper on mesh levels 1-2 and compare with the stored results (~4 min)
 python reproduce/01_recompute_permeability.py --quick           # -> PASS, max |rel diff| = 0.0
 ```
 
@@ -69,12 +69,12 @@ that in the run manifest). Installation without root: `bash PercoFlow/scripts/in
 |---|---|---|---|
 | repository integrity | `sha256sum -c SHA256SUMS.txt` | seconds | all OK |
 | software tests (incl. OpenFOAM) | `cd PercoFlow && pytest -q` | 1 min | 19 passed |
-| verification benchmarks B1–B5 | `percoflow benchmark -o runs/bench` | 15 min | STATUS: PASS |
-| Table 1, Figure 4 (k_D, levels 1–5) | `python reproduce/01_recompute_permeability.py` | 30–40 min, 15 GB | \|Δk/k\| < 10⁻⁶ |
-| Figure 5a, A_k range (window scan) | `python reproduce/01_recompute_permeability.py --windows` | +10 min | \|Δk/k\| < 10⁻⁶ |
-| Figures 4, 8, 9, 10, 11 | `python reproduce/02_figures_from_results.py` | 3 min | plotted numbers identical |
-| Figures 1, 2, 3, 5, 6, 7, Suppl. Figs 1–2, Suppl. Tables | `python reproduce/03_figures_and_tables_as_run.py` | 3 min | raster/byte identical |
-| everything above, in order | `bash reproduce/run_all.sh` (`--quick` for levels 1–2) | ~1 h | every step PASS |
+| verification benchmarks B1–B5 | `percoflow benchmark -o runs/bench` | 11 min | STATUS: PASS |
+| Table 1, Figure 4 (k_D, levels 1–5) | `python reproduce/01_recompute_permeability.py` (`--quick`: levels 1–2, 4 min) | longer; ≥ 32 GB | \|Δk/k\| < 10⁻⁶ |
+| Figure 5a, A_k range (window scan) | `python reproduce/01_recompute_permeability.py --windows` | 27 more runs | \|Δk/k\| < 10⁻⁶ |
+| Figures 4, 8, 9, 10, 11 | `python reproduce/02_figures_from_results.py` | 30 s | plotted numbers identical |
+| Figures 1, 2, 3, 5, 6, 7, Suppl. Figs 1–2, Suppl. Tables | `python reproduce/03_figures_and_tables_as_run.py` | 15 s | raster/byte identical |
+| everything above, in order | `bash reproduce/run_all.sh` (`--quick` for levels 1–2: 16 min, 17 GB) | — | every step PASS |
 
 The acceptance criteria are written in each script before any result. Step-by-step explanations are in
 [docs/TUTORIAL.md](docs/TUTORIAL.md); the environment and the expected numbers are in

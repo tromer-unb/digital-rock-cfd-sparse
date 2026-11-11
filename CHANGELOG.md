@@ -14,6 +14,8 @@ The history of the first release is preserved (no commit was rewritten).
   (`reproduce/scripts_as_run/`), the display items of the paper (`paper/`) and their reference outputs.
 * Added documentation: tutorial, the paper explained, provenance map, reproducibility, audit guide; READMEs in every folder.
 * Added `SHA256SUMS.txt`, `CITATION.cff`, `tools/` (environment set-up, checksums, Supplementary Data archive).
+* Reference output of `reproduce/run_all.sh --quick` run on the clean commit 1944299 (`reproduce/reference_output/`):
+  every step PASS.
 * Moved the files of the first release to `legacy/original_release_2026-07/` (`git mv`, history kept); removed
   `structures.tar.gz` (its images are in `data/images/`).
 

@@ -1,0 +1,108 @@
+{
+ "kind": "image",
+ "status": "completed",
+ "started_utc": "2026-11-11T12:01:11.988920+00:00",
+ "command": "reproduce/01_recompute_permeability.py --quick",
+ "config": {
+  "image": {
+   "pore_rule": "green",
+   "green_min": 80,
+   "green_delta": 30,
+   "threshold": null,
+   "invert": false,
+   "min_object_size": 20
+  },
+  "domain": {
+   "direction": "lr",
+   "band_fraction": 0.08,
+   "band_px": null,
+   "keep_percolating": "all",
+   "reservoir_fraction": 0.1
+  },
+  "mesh": {
+   "level": 2,
+   "h_min": null,
+   "h_max": null,
+   "d_min": null,
+   "d_max": null,
+   "contour_tolerance": 0.25,
+   "min_contour_points": 8,
+   "min_contour_area": 20.0,
+   "algorithm": 6,
+   "smoothing": 5,
+   "face_tolerance": 0.75
+  },
+  "solver": {
+   "element": "p2",
+   "method": "lu",
+   "inlet": "pressure",
+   "p_in": 1.0,
+   "u0": 0.0001,
+   "mu": 1.0,
+   "rho": 1.0,
+   "minres_tol": 1e-07,
+   "minres_maxiter": 20000,
+   "accept_residual": 0.001,
+   "max_dofs": 6000000
+  },
+  "descriptors": {
+   "alpha": 0.01,
+   "beta": 0.001
+  },
+  "openfoam": {
+   "enabled": false,
+   "env_script": null,
+   "nu": 10000.0,
+   "max_cells": 250000,
+   "subwindow": 512,
+   "max_subwindows": 2,
+   "nprocs": 1,
+   "max_iterations": 200000,
+   "keep_cases": false
+  },
+  "output": {
+   "save_mesh": false,
+   "save_fields": false,
+   "save_vtk": false,
+   "figures": false
+  }
+ },
+ "environment": {
+  "percoflow": "1.0.0",
+  "git": {
+   "commit": "194429957b8d39b5d2ad3111d05efc76165403db",
+   "dirty": false
+  },
+  "python": "3.12.3",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "host": "gpu-server",
+  "libraries": {
+   "numpy": "2.5.4",
+   "scipy": "1.18.1",
+   "skfem": "12.0.2",
+   "skimage": "0.26.0",
+   "gmsh": "4.15.2",
+   "meshio": "5.3.5",
+   "matplotlib": "3.11.2",
+   "PIL": "13.0.0",
+   "yaml": "6.0.3"
+  },
+  "threads": {
+   "OMP_NUM_THREADS": "1",
+   "OPENBLAS_NUM_THREADS": "1",
+   "MKL_NUM_THREADS": null
+  }
+ },
+ "inputs": {
+  "/home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/github/digital-rock-cfd-sparse/data/images/patch_y7600_x53200_c0_mask.png": "319c26fe3045208af40b0b1631a9af40bfcd9837835be6a983a90d7a87395b1f"
+ },
+ "notes": [
+  "OpenFOAM cross-check DISABLED by the user (--no-openfoam)"
+ ],
+ "finished_utc": "2026-11-11T12:01:30.038216+00:00",
+ "wall_time_s": 18.04180097579956,
+ "outputs": {
+  "mask_selected.png": "f3a96dada39ca013102ed880d052bb7da46b25205358b6544d02de822bf5d10f",
+  "result.json": "a3d7f5e382d6e8a2efcca7ba98875ad6a5ec2b2e4bf2bac17e2506c88a3f7101"
+ }
+}

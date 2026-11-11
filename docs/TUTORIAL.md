@@ -21,7 +21,8 @@ Contents
 ## 1. What you need
 
 * Linux x86_64 with Python ≥ 3.10 (the reference is 3.12.3) and about 5 GB of free disk space.
-* Memory: 4 GB for the quick checks, 15 GB for the finest mesh level of the paper.
+* Memory: about 17 GB for any run on the 4096 × 4096 px images of the paper (the image stage dominates), more for the
+  finest mesh levels (use a machine with at least 32 GB for levels 3–5).
 * For the figures: LaTeX with the Times fonts and `pdftoppm` (Debian/Ubuntu:
   `sudo apt install texlive-latex-extra texlive-fonts-recommended dvipng cm-super poppler-utils`).
 * For the finite-volume cross-check and benchmarks: OpenFOAM v1912 (step 3.2).
@@ -93,7 +94,7 @@ top to bottom (configuration R2-V of the paper). Compute its permeability on the
 percoflow image data/images/patch_y7600_x19000_c0_mask.png -o runs/R2-V --direction tb --level 1 --no-openfoam
 ```
 
-After about 25 seconds it prints:
+After about 30 seconds it prints:
 
 ```
 k_D = 60.767   (Q = 70.9339, dP = 0.980358, L = 3440, W = 4096)
@@ -171,7 +172,8 @@ face-connected percolating mask. The result is in the block `openfoam_crosscheck
 `k_fe_contour`, `k_fv_pixel`, `rel_diff_fv_vs_fe`), and the OpenFOAM cases are kept in `runs/R2-V_of/openfoam/`.
 
 On one core this run takes considerably longer than the finite-element run alone, because simpleFoam iterates to a tight
-residual on two sub-windows of about 170 000 cells each.
+residual on two sub-windows of 512 × 512 px (170 000 and 217 000 pore cells); on the reference machine the two OpenFOAM
+solutions took more than 25 minutes each.
 
 The two values are not expected to be equal: the finite elements solve the flow in a domain with smooth contour walls, the
 finite volumes in a domain with pixel-staircase walls. Figure 5b of the paper measures this difference on 11 matched
@@ -183,7 +185,7 @@ domain; the paper validates the solver itself on the cylinder cell (Figure 3c, 0
 The three reproduction scripts compare their results with the stored ones and print PASS or FAIL
 ([reproduce/README.md](../reproduce/README.md)).
 
-**Software checks** (about 15 minutes):
+**Software checks** (about 12 minutes):
 
 ```bash
 (cd PercoFlow && pytest -q)                  # 19 passed
@@ -196,7 +198,7 @@ OpenFOAM. Each criterion is in the docstring of its module ([PercoFlow/docs/BENC
 **Step 1 — permeabilities** (Table 1, Figure 4, the k_D and A_k values of the text):
 
 ```bash
-python reproduce/01_recompute_permeability.py --quick      # levels 1-2, about 5 minutes
+python reproduce/01_recompute_permeability.py --quick      # levels 1-2, about 4 minutes
 ```
 
 Each line compares a recomputed value with the stored one:
@@ -207,7 +209,7 @@ R3-H L1 p2   k_D = ...  archived ...  rel +0.0e+00
 PASS max |rel diff| = 0.0
 ```
 
-Without `--quick` it runs levels 1–5 (30–40 minutes, 15 GB at level 5); `--windows` adds the cropping-window scan of
+Without `--quick` it runs levels 1–5 (longer, and more memory than level 2); `--windows` adds the cropping-window scan of
 Figure 5a.
 
 **Step 2 — Figures 4 and 8–11** from the stored results and fields:
@@ -222,7 +224,7 @@ python reproduce/02_figures_from_results.py                 # figures in runs/02
 python reproduce/03_figures_and_tables_as_run.py            # IDENTICAL / SAME RASTER per item, then PASS
 ```
 
-**Everything in order:** `bash reproduce/run_all.sh --quick` (about 25 minutes) or `bash reproduce/run_all.sh` (about 1 hour).
+**Everything in order:** `bash reproduce/run_all.sh --quick` (16 minutes on the reference machine) or `bash reproduce/run_all.sh` (all levels and the window scan).
 
 ## 8. Follow one number from the paper to its source
 
@@ -283,4 +285,4 @@ A tutorial on two small synthetic inputs, including a mesh input (`percoflow mes
 | `pdftoppm: not found` in step 3 | install `poppler-utils` |
 | a recomputed value differs at the 1e-12 level | floating-point order on another CPU; within the tolerance of [REPRODUCIBILITY.md](REPRODUCIBILITY.md) |
 | a recomputed value differs at the 1e-4 level or more | another Gmsh or scikit-fem version: compare `environment.libraries` in the two manifests and reinstall with `tools/setup_environment.sh` |
-| memory error at level 5 | the finest level needs about 15 GB; use `--quick` or a larger machine |
+| memory error | the images of the paper need about 17 GB, the finest levels more; use `--quick` or a larger machine |

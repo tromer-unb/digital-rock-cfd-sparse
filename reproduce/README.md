@@ -5,10 +5,10 @@ stored values. Run them from the repository root, in the environment made by `to
 
 | step | script | reproduces | time (1 core) | acceptance (declared in the script before running) |
 |---|---|---|---|---|
-| 1 | `01_recompute_permeability.py [--quick] [--windows]` | k_D of R3-H, R2-V, R3-V on mesh levels 1–5 (Table 1, Figure 4, all k_D and A_k in the text); with `--windows` the cropping-band scan (Figure 5a, A_k range) | 5 min (`--quick`), 30–40 min, +10 min | \|k_D / stored − 1\| < 10⁻⁶ for every run |
-| 2 | `02_figures_from_results.py [outdir]` | Figures 4, 8, 9, 10, 11 from the stored results and fields | 3 min | every plotted number identical to `data/results/figure_sources/` |
-| 3 | `03_figures_and_tables_as_run.py [--keep DIR]` | Figures 1, 2, 3, 5, 6, 7, Supplementary Figures 1–2 and the Supplementary Tables, by running the figure scripts exactly as run | 3 min | tables byte-identical; figures identical on the page rendered at 200 dpi |
-| all | `run_all.sh [--quick]` | integrity check, PercoFlow tests and benchmarks, then steps 1–3 | ~1 h | every step PASS |
+| 1 | `01_recompute_permeability.py [--quick] [--windows]` | k_D of R3-H, R2-V, R3-V on mesh levels 1–5 (Table 1, Figure 4, all k_D and A_k in the text); with `--windows` the cropping-band scan (Figure 5a, A_k range) | 4 min (`--quick`, 17 GB); full levels and windows longer, ≥ 32 GB | \|k_D / stored − 1\| < 10⁻⁶ for every run |
+| 2 | `02_figures_from_results.py [outdir]` | Figures 4, 8, 9, 10, 11 from the stored results and fields | 30 s | every plotted number identical to `data/results/figure_sources/` |
+| 3 | `03_figures_and_tables_as_run.py [--keep DIR]` | Figures 1, 2, 3, 5, 6, 7, Supplementary Figures 1–2 and the Supplementary Tables, by running the figure scripts exactly as run | 15 s | tables byte-identical; figures identical on the page rendered at 200 dpi |
+| all | `run_all.sh [--quick]` | integrity check, PercoFlow tests and benchmarks, then steps 1–3 | 16 min with `--quick` | every step PASS |
 
 Outputs go to `runs/` (not tracked). Each PercoFlow run of step 1 is a complete run directory with `manifest.json`
 (configuration, SHA-256 of input and outputs, versions, git commit); check one with `percoflow verify <run directory>`.

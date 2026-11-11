@@ -45,7 +45,7 @@ This page explains the rules that make every result of the paper checkable, and 
 4. The file name and its keys give the options (level 5, tolerance 0.25 px, band 0.08, reservoir 0.1 L_s, element p2).
    The script that wrote it is `reproduce/scripts_as_run/studies/fr_reservoir.py`, driven by `run_fr_E.sh`.
 5. Recompute it with PercoFlow: `python reproduce/01_recompute_permeability.py` compares the new value with this file (the
-   level-5 runs need about 15 GB of memory).
+   finest levels need at least 32 GB of memory).
 
 ## What is not in the repository
 

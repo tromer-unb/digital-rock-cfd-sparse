@@ -1,0 +1,120 @@
+{
+ "input": "/home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/github/digital-rock-cfd-sparse/data/images/patch_y7600_x53200_c0_mask.png",
+ "mask": {
+  "shape": [
+   4096,
+   4096
+  ],
+  "pore_pixels": 8981460,
+  "porosity": 0.5353367328643799
+ },
+ "crop": {
+  "band_px": 328,
+  "window_shape": [
+   3440,
+   4096
+  ]
+ },
+ "percolation": {
+  "clusters_total": 162,
+  "clusters_percolating": 1,
+  "clusters_dead_end": 4,
+  "clusters_isolated": 157,
+  "area_percolating_px": 7199405,
+  "area_dead_end_px": 28022,
+  "area_isolated_px": 133609,
+  "pore_area_window_px": 7361036,
+  "connected_fraction": 0.9780423570812586,
+  "percolates": true
+ },
+ "direction": "tb",
+ "units": "px (lengths), px^2 (permeability)",
+ "critical_throat_width_px": 791.5711556826548,
+ "status": "ok",
+ "permeability": {
+  "k_D": 28764.119208195647,
+  "Q": 32295.0423737025,
+  "dP": 0.9429382939635162,
+  "Pbar_in": 0.9553303057625998,
+  "Pbar_out": 0.01239201179908351,
+  "L_s": 3440,
+  "W": 4096,
+  "b": 344,
+  "U_darcy": 7.884531829517212,
+  "k_D_length_weighted": 27138.09021105566,
+  "k_D_outer_faces": 26925.21018009435,
+  "reservoir_pressure_share": 0.06393065662088282,
+  "definition": "k_D = mu Q L_s / (W dP), dP between flux-weighted pressures 1 px inside the reservoirs"
+ },
+ "solver": {
+  "element": "p2",
+  "method": "lu",
+  "inlet": {
+   "length": 4096.414213562373,
+   "flux": -32295.0423737025,
+   "p_mean_length": 1.000000095516844,
+   "p_mean_flux": 1.0040204153415322,
+   "p_mean_nodal": 1.0000024360151278
+  },
+  "n_triangles": 57103,
+  "n_dof": 289188,
+  "n_free": 240164,
+  "residual": 7.729849321292458e-13,
+  "t_assembly_s": 0.9137814044952393,
+  "t_solve_s": 2.1805856227874756,
+  "nnz_reduced": 4035000,
+  "Q": 32295.0423737025,
+  "mass_imbalance": 5.632410642158003e-16,
+  "outlet": {
+   "length": 4096.414213562373,
+   "flux": 32295.04237370252,
+   "p_mean_length": -7.221546356691608e-07,
+   "p_mean_flux": -0.0033176634375492904,
+   "p_mean_nodal": 9.815105003291649e-06
+  },
+  "dissipation": 32295.04237370249,
+  "energy_identity_relerr": 3.379446385294802e-16
+ },
+ "mesh": {
+  "mesh_path": "/home/luiz/SIMULACOES/CLAUDE/MANUSCRIPT-REVISION/CFD/github/digital-rock-cfd-sparse/runs/01_permeability/R3-V_L1_p2_band0.08/mesh/mesh.msh",
+  "contours": 38,
+  "surfaces": 1,
+  "nodes": 34982,
+  "inlet_curves": 3,
+  "outlet_curves": 3,
+  "wall_curves": 11571,
+  "sizes": {
+   "h_min": 12.0,
+   "h_max": 70.0,
+   "d_min": 12.0,
+   "d_max": 140.0
+  }
+ },
+ "timings": {
+  "mesh_s": 4.033327579498291,
+  "assembly_s": 0.9137814044952393,
+  "solve_s": 2.1805856227874756
+ },
+ "descriptors": {
+  "area_fluid": 7198041.282761249,
+  "porosity_domain": 0.5211591186221183,
+  "wall_length": 28652.79602324152,
+  "hydraulic_diameter": 1004.8640665884902,
+  "speed_max": 45.06807668275415,
+  "velocity_amplification": 5.716011762934791,
+  "partition": {
+   "active": 0.8095687565798723,
+   "dead": 0.13080622622567292,
+   "intermediate": 0.059625017194454816,
+   "alpha": 0.01,
+   "beta": 0.001
+  },
+  "A50": 0.22437218011138566,
+  "A90": 0.5299915420207799,
+  "kD_times_Dh": 28904029.79938358,
+  "n_triangles_sample": 44753
+ },
+ "openfoam_crosscheck": {
+  "status": "disabled_by_user"
+ }
+}

@@ -11,9 +11,9 @@ Acceptance (declared before running): every recomputed k_D agrees with the archi
 (same images, same options, same mesher and solver logic; differences only from floating-point summation order).
 
 Usage (inside the PercoFlow environment, see docs/TUTORIAL.md):
-    python reproduce/01_recompute_permeability.py --quick       # mesh levels 1-2, about 5 min on one core
-    python reproduce/01_recompute_permeability.py               # levels 1-5 (Table 1, Figure 4), 30-40 min, ~15 GB RAM
-    python reproduce/01_recompute_permeability.py --windows     # + crop-band scan (Figure 5a, A_k range), +10 min
+    python reproduce/01_recompute_permeability.py --quick       # mesh levels 1-2, about 4 min on one core, 17 GB RAM
+    python reproduce/01_recompute_permeability.py               # levels 1-5 (Table 1, Figure 4), longer, >= 32 GB RAM
+    python reproduce/01_recompute_permeability.py --windows     # + crop-band scan (Figure 5a, A_k range), 27 more runs
 The OpenFOAM cross-check is switched off here because these runs reproduce the finite-element numbers; the finite-volume
 numbers of the paper are reproduced by `percoflow benchmark` and by the scripts in reproduce/scripts_as_run/studies/.
 Writes <out>/comparison.json (default out: runs/01_permeability) and one PercoFlow run directory per case, each with its

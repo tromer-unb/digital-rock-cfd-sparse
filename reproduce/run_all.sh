@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Run the whole reproduction of the paper in order and stop at the first failure.
 # Usage (from the repository root, with the environment of tools/setup_environment.sh active):
-#   bash reproduce/run_all.sh            # full: mesh levels 1-5 and the window scan (about 1 h, 15 GB RAM)
-#   bash reproduce/run_all.sh --quick    # mesh levels 1-2 only (about 25 min)
+#   bash reproduce/run_all.sh            # full: mesh levels 1-5 and the window scan (long; at least 32 GB RAM)
+#   bash reproduce/run_all.sh --quick    # mesh levels 1-2 only (16 min and 17 GB on the reference machine)
 # Every output goes to runs/ (not tracked by git). OpenFOAM v1912 is needed for steps 2 and 3
 # (set PERCOFLOW_OPENFOAM_ENV if it is not on the PATH, see PercoFlow/docs/OPENFOAM.md).
 set -euo pipefail

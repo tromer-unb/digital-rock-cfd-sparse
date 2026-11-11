@@ -48,15 +48,23 @@ To compare a re-run with a stored result, compare numbers within these tolerance
 
 ## Resources
 
+Measured on the reference machine (2026-11-11, one thread, wall time and peak resident memory). The memory is set by
+the image stage: the images of the paper are 4096 × 4096 px, and their processing needs about 17 GB whatever the mesh level.
+
+
 | task | time on one core | memory |
 |---|---|---|
-| one image at level 1 without OpenFOAM | 25 s | 2 GB |
-| `01_recompute_permeability.py --quick` | about 5 min | 4 GB |
-| `01_recompute_permeability.py` (levels 1–5) | 30–40 min | 15 GB at level 5 |
-| benchmark suite B1–B5 | about 15 min | 4 GB |
-| steps 2 and 3 | about 3 min each | 4 GB |
+| one image of the paper at level 1, without OpenFOAM | 30 s | 17 GB |
+| `01_recompute_permeability.py --quick` | 4 min | 17 GB |
+| `01_recompute_permeability.py` (levels 1–5), `--windows` | not re-timed for this release (see below) | more than at level 2; use ≥ 32 GB |
+| benchmark suite B1–B5 | 11 min | 1.4 GB |
+| step 2 / step 3 | 32 s / 12 s | 3.4 GB / small |
+| PercoFlow tests (`pytest -q`) | 53 s | 0.4 GB |
+| `run_all.sh --quick` (everything above except the full levels) | 16 min | 17 GB |
 
-Studies such as the OpenFOAM sub-window pairs (B7, B8) or the full window scans took hours on several cores; their stored
+The release was verified with `run_all.sh --quick` (mesh levels 1–2); the stored level 3–5 and window-scan results were
+produced by the scripts in `reproduce/scripts_as_run/studies/` and are compared by the full step 1, which was not repeated
+for this release. Studies such as the OpenFOAM sub-window pairs (B7, B8) or the full window scans took hours on several cores; their stored
 outputs are reproduced by the figure scripts, and the scripts that made them are in `reproduce/scripts_as_run/studies/`.
 
 ## When the numbers differ

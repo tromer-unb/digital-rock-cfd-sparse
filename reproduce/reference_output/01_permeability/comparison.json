@@ -1,0 +1,139 @@
+{
+ "criterion": "|k_D / archived - 1| < 1e-6",
+ "max_abs_rel_diff": 0.0,
+ "pass": true,
+ "rows": [
+  {
+   "case": "R3-H",
+   "level": 1,
+   "element": "p2",
+   "band": 0.08,
+   "k_D": 18.140111106921157,
+   "k_D_archived": 18.140111106921157,
+   "rel_diff": 0.0,
+   "n_tri": 65133,
+   "n_tri_archived": 65133
+  },
+  {
+   "case": "R3-H",
+   "level": 1,
+   "element": "mini",
+   "band": 0.08,
+   "k_D": 15.631929356646857,
+   "k_D_archived": 15.631929356646857,
+   "rel_diff": 0.0,
+   "n_tri": 65133,
+   "n_tri_archived": 65133
+  },
+  {
+   "case": "R3-H",
+   "level": 2,
+   "element": "p2",
+   "band": 0.08,
+   "k_D": 18.206655705053326,
+   "k_D_archived": 18.206655705053326,
+   "rel_diff": 0.0,
+   "n_tri": 93708,
+   "n_tri_archived": 93708
+  },
+  {
+   "case": "R3-H",
+   "level": 2,
+   "element": "mini",
+   "band": 0.08,
+   "k_D": 16.76687906434886,
+   "k_D_archived": 16.76687906434886,
+   "rel_diff": 0.0,
+   "n_tri": 93708,
+   "n_tri_archived": 93708
+  },
+  {
+   "case": "R2-V",
+   "level": 1,
+   "element": "p2",
+   "band": 0.08,
+   "k_D": 60.76696061428415,
+   "k_D_archived": 60.76696061428415,
+   "rel_diff": 0.0,
+   "n_tri": 64856,
+   "n_tri_archived": 64856
+  },
+  {
+   "case": "R2-V",
+   "level": 1,
+   "element": "mini",
+   "band": 0.08,
+   "k_D": 57.50022836619425,
+   "k_D_archived": 57.50022836619425,
+   "rel_diff": 0.0,
+   "n_tri": 64856,
+   "n_tri_archived": 64856
+  },
+  {
+   "case": "R2-V",
+   "level": 2,
+   "element": "p2",
+   "band": 0.08,
+   "k_D": 60.84238818898954,
+   "k_D_archived": 60.84238818898954,
+   "rel_diff": 0.0,
+   "n_tri": 90624,
+   "n_tri_archived": 90624
+  },
+  {
+   "case": "R2-V",
+   "level": 2,
+   "element": "mini",
+   "band": 0.08,
+   "k_D": 58.47451979039632,
+   "k_D_archived": 58.47451979039632,
+   "rel_diff": 0.0,
+   "n_tri": 90624,
+   "n_tri_archived": 90624
+  },
+  {
+   "case": "R3-V",
+   "level": 1,
+   "element": "p2",
+   "band": 0.08,
+   "k_D": 28764.119208195647,
+   "k_D_archived": 28764.119208195647,
+   "rel_diff": 0.0,
+   "n_tri": 57103,
+   "n_tri_archived": 57103
+  },
+  {
+   "case": "R3-V",
+   "level": 1,
+   "element": "mini",
+   "band": 0.08,
+   "k_D": 28192.469510452436,
+   "k_D_archived": 28192.469510452436,
+   "rel_diff": 0.0,
+   "n_tri": 57103,
+   "n_tri_archived": 57103
+  },
+  {
+   "case": "R3-V",
+   "level": 2,
+   "element": "p2",
+   "band": 0.08,
+   "k_D": 28773.516376530217,
+   "k_D_archived": 28773.516376530217,
+   "rel_diff": 0.0,
+   "n_tri": 80813,
+   "n_tri_archived": 80813
+  },
+  {
+   "case": "R3-V",
+   "level": 2,
+   "element": "mini",
+   "band": 0.08,
+   "k_D": 28378.41254742273,
+   "k_D_archived": 28378.41254742273,
+   "rel_diff": 0.0,
+   "n_tri": 80813,
+   "n_tri_archived": 80813
+  }
+ ]
+}
